@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0dee31e0.css",
-    "main.js": "/static/js/main.709ce456.js",
+    "main.js": "/static/js/main.0745b1aa.js",
     "static/media/NSE.jpg": "/static/media/NSE.a15dc75d1234a7cc2cf1.jpg",
     "static/media/slide-one.mp4": "/static/media/slide-one.318d0536d76e925a0f9e.mp4",
     "static/media/Life-logo.jpg": "/static/media/Life-logo.4155f35b6fddf662ea13.jpg",
@@ -25,10 +25,10 @@
     "static/media/NSE-logo.png": "/static/media/NSE-logo.4e2519f4ce846369c003.png",
     "index.html": "/index.html",
     "main.0dee31e0.css.map": "/static/css/main.0dee31e0.css.map",
-    "main.709ce456.js.map": "/static/js/main.709ce456.js.map"
+    "main.0745b1aa.js.map": "/static/js/main.0745b1aa.js.map"
   },
   "entrypoints": [
     "static/css/main.0dee31e0.css",
-    "static/js/main.709ce456.js"
+    "static/js/main.0745b1aa.js"
   ]
 }
