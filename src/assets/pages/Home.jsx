@@ -113,7 +113,7 @@ const Home = () => {
 
         </div>
         
-        <span className='text-center text-lg font-semibold'>in association with </span>
+        <span className='text-center text-lg font-semibold'>In association with </span>
 
         <div className="supporters-logos">
           <div className="nse-logo">

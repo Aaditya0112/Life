@@ -2,7 +2,7 @@
   "name": "life",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https://aaditya0112.github.io/",
+  "homepage" : "https://aaditya0112.github.io/Life",
   "dependencies": {
     "@emotion/styled": "^11.13.0",
     "@mui/lab": "^6.0.0-beta.10",
