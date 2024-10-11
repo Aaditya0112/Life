@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/life/static/css/main.0dee31e0.css",
+    "main.js": "/life/static/js/main.e31b5b22.js",
+    "static/media/NSE.jpg": "/life/static/media/NSE.a15dc75d1234a7cc2cf1.jpg",
+    "static/media/slide-one.mp4": "/life/static/media/slide-one.318d0536d76e925a0f9e.mp4",
+    "static/media/Life-logo.jpg": "/life/static/media/Life-logo.4155f35b6fddf662ea13.jpg",
+    "static/media/Bhupendra_Yadav.jpg": "/life/static/media/Bhupendra_Yadav.13ee442c70c33e957965.jpg",
+    "static/media/Gauranga-Das-Prabhu.png": "/life/static/media/Gauranga-Das-Prabhu.7c462ab1ca78be1fcadd.png",
+    "static/media/slide1.jpg": "/life/static/media/slide1.7bae925c2b9e6921c058.jpg",
+    "static/media/vardar.jpg": "/life/static/media/vardar.9623f08c374804918438.jpg",
+    "static/media/Ashish_Chauhan.png": "/life/static/media/Ashish_Chauhan.ccebed7db5cc1524f0e6.png",
+    "static/media/IGBC.png": "/life/static/media/IGBC.ad88feacad919366d511.png",
+    "static/media/IGBC-drone.png": "/life/static/media/IGBC-drone.a8c2f9bec96197d09ab0.png",
+    "static/media/S-Gurumurthy.png": "/life/static/media/S-Gurumurthy.6dc9133c4a02c2306761.png",
+    "static/media/slide2.jpg": "/life/static/media/slide2.2faacea92ce0fa7b247c.jpg",
+    "static/media/CP_Radhakrishnan.jpg": "/life/static/media/CP_Radhakrishnan.30a73f88534501c1f7b5.jpg",
+    "static/media/slide3.jpg": "/life/static/media/slide3.5f6be7aef31766da9c24.jpg",
+    "static/media/formTestQR.png": "/life/static/media/formTestQR.55998c0713114f557de0.png",
+    "static/media/slide2.webp": "/life/static/media/slide2.d4a1db33da8b32fc927b.webp",
+    "static/media/iitk_logo.png": "/life/static/media/iitk_logo.13742586b87ba6b0765b.png",
+    "static/media/Ganti_S_Murthy.jpg": "/life/static/media/Ganti_S_Murthy.e81ba6bf4605f3ef96ad.jpg",
+    "static/media/Radhanath_swami.jpg": "/life/static/media/Radhanath_swami.d465dcc3f8744cef3484.jpg",
+    "static/media/NSE-logo.png": "/life/static/media/NSE-logo.4e2519f4ce846369c003.png",
+    "index.html": "/life/index.html",
+    "main.0dee31e0.css.map": "/life/static/css/main.0dee31e0.css.map",
+    "main.e31b5b22.js.map": "/life/static/js/main.e31b5b22.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0dee31e0.css",
+    "static/js/main.e31b5b22.js"
+  ]
+}
