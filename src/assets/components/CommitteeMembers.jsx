@@ -9,16 +9,17 @@ import rns from "../images/speakers/Radhanath_swami.jpg"
 import vb from "../images/speakers/vardar.jpg"
 
 const CommitteeMembers = {
-    advisory: [
-        { name: 'Ashish Kumar Chauhan' , image: ac, designation:'',link:'https://en.wikipedia.org/wiki/Ashish_Chauhan' },
-        { name: 'Bhupender Yadav', image: by, designation:'' ,link:'https://en.wikipedia.org/wiki/Bhupender_Yadav'},
-        { name: 'C P Radhakrishnan', image: cpr , designation:'',link:'https://en.wikipedia.org/wiki/C._P._Radhakrishnan'},
-        { name: 'Ganti S Murthy', image: gsm, designation:'' ,link:'https://iiti.irins.org/profile/113223'},
-        { name: 'HG Gauranga Das', image: gd, designation:'' ,link:'https://gaurangadas.com/'},
-        { name: 'HH Radhanath Swami', image: rns, designation:'',link:'https://www.radhanathswami.com/about-radhanath-swami/' },
-        { name: 'S Gurumurthy', image: sgm, designation:'' ,link:'https://en.wikipedia.org/wiki/Swaminathan_Gurumurthy'},
-        { name: 'Sandeep Shikare', image: ss, designation:'' ,link:'https://in.linkedin.com/in/sandeep-shikre-2680b024'},
-        { name: 'Varadraj Bapat', image: vb, designation:'',link:'https://www.som.iitb.ac.in/prof-varadraj-bapat/'}
+    advisory: [        
+      { name: 'HH Radhanath Swami', image: rns, designation:'Spiritual Leader, Teacher, Author',link:'https://www.radhanathswami.com/about-radhanath-swami/' },
+        { name: 'Shri S Gurumurthy', image: sgm, designation:'CA, Corporate & Legal Adviser' ,link:'https://en.wikipedia.org/wiki/Swaminathan_Gurumurthy'},
+        { name: 'Shri C P Radhakrishnan', image: cpr , designation:'Hon. Governor of Maharashtra',link:'https://en.wikipedia.org/wiki/C._P._Radhakrishnan'},
+        { name: 'Shri Bhupender Yadav', image: by, designation:'Hon. Minister, Government of India' ,link:'https://en.wikipedia.org/wiki/Bhupender_Yadav'},
+        { name: 'Shri Ashish Kumar Chauhan' , image: ac, designation:'MD & CEO, National Stock Exchange',link:'https://en.wikipedia.org/wiki/Ashish_Chauhan' },
+        { name: 'Prof. Varadraj Bapat', image: vb, designation:'IIT Bombay, SJMSOM',link:'https://www.som.iitb.ac.in/prof-varadraj-bapat/'},
+        { name: 'Prof. Ganti S Murthy', image: gsm, designation:'IIT Indore, National Coordinator - IKS' ,link:'https://iiti.irins.org/profile/113223'},
+        { name: 'Shri Sandeep Shikare', image: ss, designation:'Founding Principal & CEO, SSA' ,link:'https://in.linkedin.com/in/sandeep-shikre-2680b024'},
+
+        { name: 'HG Gauranga Das', image: gd, designation:'Director, Govardhan Ecovillage' ,link:'https://gaurangadas.com/'},
   
       ]
     };

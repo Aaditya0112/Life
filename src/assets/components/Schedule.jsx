@@ -13,17 +13,17 @@ function Schedule() {
     <Timeline className='text-xl' >
       <TimelineItem>
         <TimelineOppositeContent sx={{ py: '12px', px: 2, color: '#226b1e' }}>
-          09:30 am -  10:00 am
+          09:00 AM -  10:00 AM
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineDot sx={{ color: '#ff3456' }} />
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}>Breakfast and Registration</TimelineContent>
+        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}>Registartion and Breakfast</TimelineContent>
       </TimelineItem>
       <TimelineItem>
         <TimelineOppositeContent sx={{ py: '12px', px: 2, color: '#226b1e' }}>
-          10:00 am - 10:20 am
+          10:00 AM - 10:20 AM
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineDot />
@@ -33,7 +33,7 @@ function Schedule() {
       </TimelineItem>
       <TimelineItem>
         <TimelineOppositeContent sx={{ py: '12px', px: 2, color: '#226b1e' }}>
-          10:20 am - 10:40 am
+          10:20 AM - 10:40 AM
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineDot />
@@ -43,7 +43,7 @@ function Schedule() {
       </TimelineItem>
       <TimelineItem>
         <TimelineOppositeContent sx={{ py: '12px', px: 2, color: '#226b1e' }}>
-          10:40 am - 11:00 am
+          10:40 AM - 11:00 AM
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineDot />
@@ -53,7 +53,7 @@ function Schedule() {
       </TimelineItem>
       <TimelineItem>
         <TimelineOppositeContent sx={{ py: '12px', px: 2, color: '#226b1e' }}>
-          11:00 am - 11:20 am
+          11:00 AM - 11:20 AM
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineDot />
@@ -63,7 +63,7 @@ function Schedule() {
       </TimelineItem>
       <TimelineItem>
         <TimelineOppositeContent sx={{ py: '12px', px: 2, color: '#226b1e' }}>
-          11:20 am - 11:30 am
+          11:20 AM - 11:30 AM
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineDot />
@@ -73,7 +73,7 @@ function Schedule() {
       </TimelineItem>
       <TimelineItem>
         <TimelineOppositeContent sx={{ py: '12px', px: 2, color: '#226b1e' }}>
-          11:30 am - 12:00 pm
+          11:30 AM - 12:00 pm
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineDot />

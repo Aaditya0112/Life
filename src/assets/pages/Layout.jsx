@@ -4,7 +4,7 @@ import { useState } from "react";
 
 import iitk_logo from '../images/iitk_logo.png';
 import gev from '../images/GEV.png';
-import igbc from '../images/IGBC.png'
+import igbc from '../images/IGBC.jpg'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';

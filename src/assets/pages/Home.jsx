@@ -8,7 +8,7 @@ import life from "../images/Life-logo.jpg"
 import gev from '../images/GEV.png';
 import nselogo from '../images/NSE-logo.png'
 import iitk_logo from '../images/iitk_logo.png';
-import igbc from '../images/IGBC.png'
+import igbc from '../images/IGBC.jpg'
 // import SponsorsImg from '../components/SponsorsImg';
 
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
