@@ -1,0 +1,72 @@
+.about{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.dgreen{
+    color: #226b1e;
+}
+
+ .about-IGBC{
+    /* background: url(../images/slide2.jpg); */
+    padding: 1rem 1rem;
+    border-radius: 20px;
+    box-shadow: 0px 0px 0px 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .aboutt{
+        margin: 2rem;
+        width: 80%;
+    }
+
+}
+
+
+
+
+.aboutt{
+    p{
+        text-align:justify
+    }
+    h3{
+        text-align: start;
+        color:rgb(103, 102, 102)
+    }
+}
+
+@media screen and (min-width: 768px){
+    .img-nse{
+        width: 300%;
+    }
+    .video_playback{
+        width:300%
+    }
+    .img-iitk{
+        width:250%;
+    }
+    
+}
+
+
+@media screen and (max-width: 768px){
+    .about-IITK, .about-EE{
+        flex-direction: column;
+
+        .aboutt{
+            width: 100%;
+        }
+    }
+
+
+    .about
+    {
+        margin: 1rem;
+    }
+
+    
+}
