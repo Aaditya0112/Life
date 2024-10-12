@@ -13,7 +13,7 @@ import nselogo from '../images/NSE-logo.png'
 
 const Layout = () => {
 
-    const [pathname, setPathname] = useState(window.location.pathname);
+    // const [pathname, setPathname] = useState(window.location.pathname);
    
     return (
 
@@ -29,7 +29,7 @@ const Layout = () => {
                     <a href = "https://ecovillage.org.in/" target="_blank"><img src={gev} alt = "GEV-Logo" /></a>
                     </div>
                     <div className="nse-logo">
-                    <a href = "https://ecovillage.org.in/" target="_blank"><img src={nselogo} alt="LiFE" /></a>
+                    <a href = "https://www.nseindia.com" target="_blank"><img src={nselogo} alt="nse" /></a>
                     </div>
                     <div className="inst-logo">
                         <a href = "https://iitk.ac.in" target="_blank"><img src={iitk_logo} alt="IITK Logo" /></a>

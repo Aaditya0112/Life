@@ -13,7 +13,7 @@ function Schedule() {
     <Timeline className='text-xl' >
       <TimelineItem>
         <TimelineOppositeContent sx={{ py: '12px', px: 2, color: '#226b1e' }}>
-          09:00 AM -  10:00 AM
+        <span style={{ fontWeight: "bold" }} > 09:00 AM -  10:00 AM </span>
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineDot sx={{ color: '#ff3456' }} />
@@ -23,67 +23,71 @@ function Schedule() {
       </TimelineItem>
       <TimelineItem>
         <TimelineOppositeContent sx={{ py: '12px', px: 2, color: '#226b1e' }}>
-          10:00 AM - 10:20 AM
+          <span style={{ fontWeight: "bold" }} >10:00 AM - 10:10 AM</span>
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineDot />
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}>Ashish Chauhan - <span style={{ fontWeight: "bold", fontSize: "smaller" }} >Director of NSE </span></TimelineContent>
+        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}>Inauguration and Welcome</TimelineContent>
       </TimelineItem>
+      
       <TimelineItem>
-        <TimelineOppositeContent sx={{ py: '12px', px: 2, color: '#226b1e' }}>
-          10:20 AM - 10:40 AM
+      <TimelineOppositeContent sx={{ py: '12px', px: 2, color: '#226b1e' }}>
+          <span style={{ fontWeight: "bold" }} >10:10 AM - 10:30 AM</span>
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineDot />
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}>Bhupender Yadav - <span style={{ fontWeight: "bold", fontSize: "smaller" }}>Minister of Environment, Forest and Climate Change</span></TimelineContent>
+        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}><span style={{ fontWeight: "bold" }} >Shri C.P Radha Krishnan</span> - <span style={{ fontSize: "smaller" }} >Governor of Maharashtra</span></TimelineContent>
       </TimelineItem>
       <TimelineItem>
         <TimelineOppositeContent sx={{ py: '12px', px: 2, color: '#226b1e' }}>
-          10:40 AM - 11:00 AM
+          <span style={{ fontWeight: "bold" }} >10:30 AM - 10:50 AM</span>
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineDot />
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}>C.P Radha Krishnan - <span style={{ fontWeight: "bold", fontSize: "smaller" }} >Governor of Maharashtra</span></TimelineContent>
+        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}><span style={{ fontWeight: "bold" }}>Shri Bhupender Yadav</span> - <span style={{ fontSize: "smaller" }} >Minister of Environment, Forest and Climate Change, Govt. of India</span></TimelineContent>
       </TimelineItem>
       <TimelineItem>
         <TimelineOppositeContent sx={{ py: '12px', px: 2, color: '#226b1e' }}>
-          11:00 AM - 11:20 AM
+          <span style={{ fontWeight: "bold" }} >10:50 AM - 11:10 AM</span>
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineDot />
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}>Swaminathan Gurumurthy </TimelineContent>
+        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}><span style={{ fontWeight: "bold" }}>Shri Ashish Kumar Chauhan</span> - <span style={{  fontSize: "smaller" }} > MD & CEO, National Stock Exchange </span></TimelineContent>
       </TimelineItem>
+
       <TimelineItem>
         <TimelineOppositeContent sx={{ py: '12px', px: 2, color: '#226b1e' }}>
-          11:20 AM - 11:30 AM
+          <span style={{ fontWeight: "bold" }} >11:10 PM - 11:30 PM</span>
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineDot />
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}>Video on GEV</TimelineContent>
+        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}><span style={{ fontWeight: "bold" }}>Prof. Vardaraj Bapat</span> - <span style={{ fontSize: "smaller" }} >IIT Bombay, SJMSOM </span></TimelineContent>
       </TimelineItem>
+
       <TimelineItem>
         <TimelineOppositeContent sx={{ py: '12px', px: 2, color: '#226b1e' }}>
-          11:30 AM - 12:00 pm
+          <span style={{ fontWeight: "bold" }} >11:30 AM - 11:50 PM</span>
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineDot />
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}>HH Radhanath Swami</TimelineContent>
+        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}><span style={{ fontWeight: "bold" }}>HH Radhanath Swami</span> - <span style={{ fontSize: "smaller" }} >Spiritual leader, Teacher, Author, Activist </span></TimelineContent>
       </TimelineItem>
+
       <TimelineItem>
         <TimelineOppositeContent sx={{ py: '12px', px: 2, color: '#226b1e' }}>
-          12:00 pm - 12:10 pm
+          <span style={{ fontWeight: "bold" }} >11:50 AM - 12:00 PM</span>
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineDot />
@@ -91,50 +95,58 @@ function Schedule() {
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}><span style={{ fontWeight: "bold", fontFamily: "Cooper" }} >Break</span></TimelineContent>
       </TimelineItem>
+      
       <TimelineItem>
+        
         <TimelineOppositeContent sx={{ py: '12px', px: 2, color: '#226b1e' }}>
-          12:10 pm - 12:30 pm
+          <span style={{ fontWeight: "bold" }} >12:00 PM - 12:30 PM</span>
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineDot />
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}>Prof. Vardaraj Bapat</TimelineContent>
+        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}><span style={{ fontWeight: "bold" }}>Shri S Gurumurthy</span> - <span style={{ fontSize: "smaller" }} >CA, Corporate & Legal Advisor </span> </TimelineContent>
       </TimelineItem>
       <TimelineItem>
+
+
         <TimelineOppositeContent sx={{ py: '12px', px: 2, color: '#226b1e' }}>
-          12:30 pm - 12:50 pm
+          <span style={{ fontWeight: "bold" }} >12:30 PM - 12:50 PM</span>
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineDot />
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}>Architect Sandeep Shikre</TimelineContent>
+        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}><span style={{ fontWeight: "bold" }}>Prof. Ganti S Murthy</span> - <span style={{ fontSize: "smaller" }} >IIT Indore, National Coordinator – IKS </span></TimelineContent>
       </TimelineItem>
       <TimelineItem>
         <TimelineOppositeContent sx={{ py: '12px', px: 2, color: '#226b1e' }}>
-          12:50 pm - 1:10 pm
-        </TimelineOppositeContent>
+          <span style={{ fontWeight: "bold" }} >12:50 PM - 1:10 PM
+</span>        </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineDot />
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}>Ganti Murthy</TimelineContent>
-      </TimelineItem>
+        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}><span style={{ fontWeight: "bold" }}>Shri Sandeep Shikre</span> - <span style={{ fontSize: "smaller" }} >Founding Principal & CEO, SSA </span></TimelineContent>
+      </TimelineItem> 
+      
+      
+      
+      
       <TimelineItem>
         <TimelineOppositeContent sx={{ py: '12px', px: 2, color: '#226b1e' }}>
-          1:10 pm - 1:40 pm
-        </TimelineOppositeContent>
+          <span style={{ fontWeight: "bold" }} >1:10 PM - 1:40 PM
+ </span>       </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineDot />
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}>HH Gauranga Das - <span style={{ fontWeight: "bold", fontSize: "smaller" }} >Director, GEV </span> </TimelineContent>
+        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}><span style={{ fontWeight: "bold" }}>Shri Gauranga Das</span> - <span style={{fontSize: "smaller" }} >Director, GEV </span> </TimelineContent>
       </TimelineItem>
       <TimelineItem>
         <TimelineOppositeContent sx={{ py: '12px', px: 2, color: '#226b1e' }}>
-          1:40 pm  - 2:00 pm
-        </TimelineOppositeContent>
+          <span style={{ fontWeight: "bold" }} >1:40 PM  - 1:50 PM
+</span>        </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineDot />
 

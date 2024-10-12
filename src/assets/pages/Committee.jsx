@@ -7,27 +7,27 @@ const Committee = () => {
     </header>
 
     <section class="committee">
-        <div class="member">
-            <h2>Prof. Hari Krishna</h2>
+        <div class="member text-lg">
+            <h2 className="text-2xl">Prof. Hari Krishna Padavala</h2>
             <p class="role">Lead</p>
         </div>
 
         <div class="member">
-            <h2>Mr. Rahul Joshi</h2>
+            <h2 className="text-2xl">Mr. Rahul Joshi</h2>
             <p class="role"></p>
         </div>
         <div class="member">
-            <h2>Prof. Amarendra Edpuganti</h2>
-            <p class="role"></p>
-        </div>
-
-        <div class="member">
-            <h2>Prof. Gururaj M V</h2>
+            <h2 className="text-2xl">Prof. Amarendra Edpuganti</h2>
             <p class="role"></p>
         </div>
 
         <div class="member">
-            <h2>Mr. Gajendra</h2>
+            <h2 className="text-2xl">Prof. Gururaj M V</h2>
+            <p class="role"></p>
+        </div>
+
+        <div class="member">
+            <h2 className="text-2xl">Mr. Gajendra</h2>
             <p class="role"></p>
         </div>
     </section>

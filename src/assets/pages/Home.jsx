@@ -159,35 +159,18 @@ const Home = () => {
       </div>
       <div className="about-pera">
         <span className="heading lgreen">
-          <h1>About Life</h1>
+          <h1>Themes</h1>
         </span>
-        {/* <span className="sub-heading">
-            FLAGSHIP EVENT OF IEEE PES SBC IIT KANPUR.
-          </span>
-          <p>
-            The focus on clean energy has led to a shift towards the need for a sustainable and resilient power system. The
-            sustainable power system has its own challenges because of the intermittencies in renewable energy sources. It
-            causes various power system dynamics and transients, which affect the system's performance. Such unplanned
-            scenarios need to be addressed for a robust power system operation. Further, resilient power<span className=" more hidden lg:inline md:inline"> systems should be
-              able to restrict the extent, severity, and duration of system degradation following any extreme events.
-              Thus, sustainable and resilient power systems present several opportunities and challenges, such as their design
-              and development, control and protection, stability and reliability, operation and planning, from economic, social,
-              and environmental perspectives.
-              PERA24 {"(offline event)"} covers the state of the art of several present-day and future challenges and prospects related to grid
-              resiliency. This workshop includes expert talks, panel discussions, and demonstrations of various simulators and
-              tools from multiple reputed institutes and industries. We invite faculty members, practicing engineers, and
-              students from across the globe to participate and benefit from this workshop.  </span><span className="see-more text-red-500 text-xl inline lg:hidden md:hidden" onClick={() => {
-                if (document.querySelector('.see-more').innerHTML === '...See More') {
-                  document.querySelector('.more').style.display = 'inline';
-                  document.querySelector('.see-more').innerHTML = 'See Less'
-                } else {
-                  document.querySelector('.more').style.display = 'none';
-                  document.querySelector('.see-more').innerHTML = '...See More'
-                }
-
-              }} >...See More</span>
+        
+          <p >
+            Sustainability is at the core of Indian civilization – the world’s most ancient continuous living culture
+and tradition. Our scriptures espouse a life in full harmony with nature. Our ancestors advocate
+custodianship, prudent use, and conservation of natural resources. Present day challenges demand
+that we recall our approach towards natural resources to ensure a better, sustainable future for our
+future generations. Experts will share their views on how to participate in the mission, create models,
+and put them in practice for a sustainable living – individually and collectively.
           </p>
-          {/* <!-- <iframe height="480" width="500" src="https://www.youtube.com/embed/PL3Odw-k8W4 ">
+           {/* <!-- <iframe height="480" width="500" src="https://www.youtube.com/embed/PL3Odw-k8W4 ">
     </iframe> --> */}
       </div>
 

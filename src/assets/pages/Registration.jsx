@@ -10,12 +10,7 @@ const Registration = () => {
 
             <div >
                     <ul >
-                        <li>
-                            <span className="text-red-600 text-xl">Guidelines:</span>
-                        </li>
-                        <li>
-                        <span className="text-red-600  text-xl">*</span>First Come First Serve Basis
-                        </li>
+
                         {/* <li>
                         <span className="text-red-600  text-xl">*</span>IITK students and faculty are exempt from the registration fee.
                         </li> */}

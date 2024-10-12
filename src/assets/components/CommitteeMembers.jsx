@@ -17,7 +17,7 @@ const CommitteeMembers = {
         { name: 'Shri Ashish Kumar Chauhan' , image: ac, designation:'MD & CEO, National Stock Exchange',link:'https://en.wikipedia.org/wiki/Ashish_Chauhan' },
         { name: 'Prof. Varadraj Bapat', image: vb, designation:'IIT Bombay, SJMSOM',link:'https://www.som.iitb.ac.in/prof-varadraj-bapat/'},
         { name: 'Prof. Ganti S Murthy', image: gsm, designation:'IIT Indore, National Coordinator - IKS' ,link:'https://iiti.irins.org/profile/113223'},
-        { name: 'Shri Sandeep Shikare', image: ss, designation:'Founding Principal & CEO, SSA' ,link:'https://in.linkedin.com/in/sandeep-shikre-2680b024'},
+        { name: 'Shri Sandeep Shikre', image: ss, designation:'Founding Principal & CEO, SSA' ,link:'https://in.linkedin.com/in/sandeep-shikre-2680b024'},
 
         { name: 'HG Gauranga Das', image: gd, designation:'Director, Govardhan Ecovillage' ,link:'https://gaurangadas.com/'},
   

@@ -9,7 +9,7 @@ const Supporters = () => {
                 <h1 className="lgreen text-center m-4">Associate Partners</h1>
                 <div className="supporters-logos">
                     <div className="nse-logo">
-                    <a href="https://www.nseindia.com" target="_blank"><img src={nselogo} alt="LiFE" /></a>
+                    <a href="https://www.nseindia.com" target="_blank"><img src={nselogo} alt="nse" /></a>
                     </div>
                     <div className="inst-logo">
                         <a href="https://iitk.ac.in" target="_blank"><img src={iitk_logo} alt="IITK Logo" /></a>
