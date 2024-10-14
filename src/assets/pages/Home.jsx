@@ -9,6 +9,25 @@ import gev from '../images/GEV.png';
 import nselogo from '../images/NSE-logo.png'
 import iitk_logo from '../images/iitk_logo.png';
 import igbc from '../images/IGBC.jpg'
+import SupportersLogo from '../components/SupportersLogo';
+
+
+import goi from '../images/Government_of_India_logo.png'
+import cii from "../images/cii-logo.png"
+import crdc from "../images/creduce-logo.png"
+import ficci from "../images/FICCI_logo.png"
+import ssa from "../images/ssa-logo.jpeg"
+import terviva from "../images/terviva-logo.png"
+import gom from "../images/Seal_of_Maharashtra.svg.webp"
+import nitw from "../images/NITW-logo.png"
+import moefcc from "../images/moefcc-logo.jpg"
+import iitb from "../images/IITB_Logo.svg"
+import iiti from "../images/IIT_Indore_Logo.png"
+import assocham from "../images/assocham-logo.jpg"
+
+import ssc from "../images/Theme2.jpg"
+import t1 from"../images/Theme1.webp"
+
 // import SponsorsImg from '../components/SponsorsImg';
 
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
@@ -52,7 +71,7 @@ const Home = () => {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work  "
-          date="Venue: National Stock Exchange Auditorium, Mumbai"
+          date="Venue: National Stock Exchange Auditorium, BKC, Mumbai- 400051"
           iconStyle={{ color: '#fff' }}
 
 
@@ -103,44 +122,86 @@ const Home = () => {
         <div className="org">
           <p><h1 className='text-center dgreen'>LiFE 2024</h1></p>
         </div>
-        <span className='text-center text-lg font-semibold'>Organized BY </span>
+        <span className='text-center text-lg font-bold my-2'>Organized by </span>
 
         <div className="supporters-logos">
-          <div className="gev">
-            <a href="https://ecovillage.org.in/" target="_blank"><img src={gev} alt="GEV-Logo" /></a>
-          </div>
-          
+
+          {SupportersLogo.Organiser.map((item) => (
+            <div className={item.title}>
+              <a href={item.webpage} target="_blank"><img src={item.img} alt={item.title} /></a>
+            </div>
+          ))}
 
         </div>
-        
-        <span className='text-center text-lg font-semibold'>In association with </span>
+        <span className='text-center text-lg font-bold my-2'>Venue Partner </span>
 
         <div className="supporters-logos">
-          <div className="nse-logo">
-            <a href="https://www.nseindia.com" target="_blank"><img src={nselogo} alt="LiFE" /></a>
-          </div>
-          <div className="inst-logo">
-            <a href="https://iitk.ac.in" target="_blank"><img src={iitk_logo} alt="IITK Logo" /></a>
+          {SupportersLogo.Venue.map((item) => (
+            <div className={item.title}>
+              <a href={item.webpage} target="_blank"><img src={item.img} alt={item.title} /></a>
+            </div>
+          ))}
+        </div>
+
+        <span className='text-center text-lg font-bold my-2'>In association with </span>
+
+        <div className="supporters-logos">
+          {SupportersLogo.Associate.map((item) => (
+            <div className={item.title}>
+              <a href={item.webpage} target="_blank"><img src={item.img} alt={item.title} /></a>
+            </div>
+          ))}
+        </div>
+
+        <span className='text-center text-lg font-bold my-2'>Supported By </span>
+        <div className="supporters-logos">
+          <div className="goi">
+            <div className="goi-sub flex">
+              <img src={goi} alt="Govt.of India" />
+              <img src={moefcc} alt="MOEFCC" />
+            </div>
+            <h5 className='text-center'>Ministry of Environment,<br/>
+            Forest & Climate Change</h5>
+
           </div>
 
-          <div className="igbc">
-            <a href="https://igbc.in/" target="_blank"><img src={igbc} alt="IGBC-Logo" /></a>
+          <div className="gom">
+          <div className="gom-sub flex items-center gap-2">
+              <img src={gom} alt="Govt.of Maharashtra" />
+              <h5 className='font-bold'>Government of <br/>
+              Maharashtra</h5>
+            </div>
+            <h5 className='text-center'>Ministry of Urban Development | Forest <br/>
+            Department | Department of Water Resources</h5>
           </div>
         </div>
 
-        <span className='text-center text-lg font-semibold'>Supported By </span>
-
         <div className="supporters-logos">
-          {/* <div className="nse-logo">
-              <a href="https://www.nseindia.com" target="_blank"><img src={nselogo} alt="LiFE" /></a>
-              </div>
-              <div className="inst-logo">
-                  <a href="https://iitk.ac.in" target="_blank"><img src={iitk_logo} alt="IITK Logo" /></a>
-              </div>
+          {SupportersLogo.Supporters_1.map((item) => {
+            if (item.title == "IIT Bombay" || item.title == "IIT Indore" || item.title == "NIT Warangal") {
+              return (<div className={item.title}>
+                <a href={item.webpage} target="_blank"><img src={item.img} alt={item.title} /></a>
+                <h5>{item.title}</h5>
+              </div>)
+            } else {
+              return (
+                <div className={item.title}>
+                  <a href={item.webpage} target="_blank"><img src={item.img} alt={item.title} /></a>
 
-              <div className="igbc">
-              <a href="https://igbc.in/" target="_blank"><img src={igbc} alt="PERA-Logo" /></a>
-              </div> */}
+                </div>
+              )
+            }
+          }
+
+          )}
+
+        </div>
+        <div className="supporters-logos">
+          {SupportersLogo.Supporters_2.map((item) => (
+            <div className={item.title}>
+              <a href={item.webpage} target="_blank"><img src={item.img} alt={item.title} /></a>
+            </div>
+          ))}
         </div>
 
         <div className="skills" id="skills">
@@ -161,16 +222,28 @@ const Home = () => {
         <span className="heading lgreen">
           <h1>Themes</h1>
         </span>
-        
-          <p >
-            Sustainability is at the core of Indian civilization – the world’s most ancient continuous living culture
-and tradition. Our scriptures espouse a life in full harmony with nature. Our ancestors advocate
-custodianship, prudent use, and conservation of natural resources. Present day challenges demand
-that we recall our approach towards natural resources to ensure a better, sustainable future for our
-future generations. Experts will share their views on how to participate in the mission, create models,
-and put them in practice for a sustainable living – individually and collectively.
-          </p>
-           {/* <!-- <iframe height="480" width="500" src="https://www.youtube.com/embed/PL3Odw-k8W4 ">
+
+        <p >
+          Sustainability is at the core of Indian civilization – the world’s most ancient continuous living culture
+          and tradition. Our scriptures espouse a life in full harmony with nature. Our ancestors advocate
+          custodianship, prudent use, and conservation of natural resources. Present day challenges demand
+          that we recall our approach towards natural resources to ensure a better, sustainable future for our
+          future generations. Experts will share their views on how to participate in the mission, create models,
+          and put them in practice for a sustainable living – individually and collectively.
+        </p>
+
+        {/* <img src={t1} alt="" />
+        <h3>
+          
+        Consciousness, Culture and Sustainability
+        </h3>
+
+        <img src={ssc} alt="" />
+        <h3>
+          
+        Sustainable Technologies & Value Chains
+        </h3> */}
+        {/* <!-- <iframe height="480" width="500" src="https://www.youtube.com/embed/PL3Odw-k8W4 ">
     </iframe> --> */}
       </div>
 

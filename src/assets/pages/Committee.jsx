@@ -13,14 +13,9 @@ const Committee = () => {
         </div>
 
         <div class="member">
-            <h2 className="text-2xl">Mr. Rahul Joshi</h2>
-            <p class="role"></p>
-        </div>
-        <div class="member">
             <h2 className="text-2xl">Prof. Amarendra Edpuganti</h2>
             <p class="role"></p>
         </div>
-
         <div class="member">
             <h2 className="text-2xl">Prof. Gururaj M V</h2>
             <p class="role"></p>
@@ -30,6 +25,12 @@ const Committee = () => {
             <h2 className="text-2xl">Mr. Gajendra</h2>
             <p class="role"></p>
         </div>
+
+        <div class="member">
+            <h2 className="text-2xl">Mr. Rahul Joshi</h2>
+            <p class="role"></p>
+        </div>
+
     </section>
         </>
     )
