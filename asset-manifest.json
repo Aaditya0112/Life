@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Life/static/css/main.0dee31e0.css",
-    "main.js": "/Life/static/js/main.e67c05ad.js",
+    "main.css": "/Life/static/css/main.01b62978.css",
+    "main.js": "/Life/static/js/main.0e8f2143.js",
     "static/media/NSE.jpg": "/Life/static/media/NSE.a15dc75d1234a7cc2cf1.jpg",
     "static/media/slide-one.mp4": "/Life/static/media/slide-one.318d0536d76e925a0f9e.mp4",
     "static/media/Life-logo.jpg": "/Life/static/media/Life-logo.4155f35b6fddf662ea13.jpg",
@@ -35,11 +35,11 @@
     "static/media/Radhanath_swami.jpg": "/Life/static/media/Radhanath_swami.d465dcc3f8744cef3484.jpg",
     "static/media/NSE-logo.png": "/Life/static/media/NSE-logo.4e2519f4ce846369c003.png",
     "index.html": "/Life/index.html",
-    "main.0dee31e0.css.map": "/Life/static/css/main.0dee31e0.css.map",
-    "main.e67c05ad.js.map": "/Life/static/js/main.e67c05ad.js.map"
+    "main.01b62978.css.map": "/Life/static/css/main.01b62978.css.map",
+    "main.0e8f2143.js.map": "/Life/static/js/main.0e8f2143.js.map"
   },
   "entrypoints": [
-    "static/css/main.0dee31e0.css",
-    "static/js/main.e67c05ad.js"
+    "static/css/main.01b62978.css",
+    "static/js/main.0e8f2143.js"
   ]
 }
