@@ -16,7 +16,7 @@ const Registration = () => {
                         </li> */}
                     </ul></div>
 
-            <iframe className="g-form w-3/5" src="https://docs.google.com/forms/d/e/1FAIpQLScOWD9Z7SkEJjQ6kVjPBwkaCvx4Mspc3m9GgMnjLhF-2RXk1A/viewform?usp=sharing"  frameborder="0" loading="lazy"></iframe>
+            <iframe className="g-form w-4/5 lg:w-3/5" src="https://docs.google.com/forms/d/e/1FAIpQLScOWD9Z7SkEJjQ6kVjPBwkaCvx4Mspc3m9GgMnjLhF-2RXk1A/viewform?usp=sharing"  frameborder="0" loading="lazy"></iframe>
             <div className="guidelines flex justify-around">
                 {/* <div >
                     <ul >
@@ -33,15 +33,15 @@ const Registration = () => {
             </div>
 
 
-            <div className="form flex gap-28 justify-around items-center w-4/5
+            <div className="form flex mx-2 gap-1 lg:gap-28 justify-around items-center lg:w-4/5
             ">
-                <div className="form-link">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLScOWD9Z7SkEJjQ6kVjPBwkaCvx4Mspc3m9GgMnjLhF-2RXk1A/viewform?usp=sharing" target="_blank"> Go to Google Form </a>
+                <div className="form-link ">
+                <a className="" href="https://docs.google.com/forms/d/e/1FAIpQLScOWD9Z7SkEJjQ6kVjPBwkaCvx4Mspc3m9GgMnjLhF-2RXk1A/viewform?usp=sharing" target="_blank"> Go to Google Form </a>
                 </div>
 
                 <h3 className="dblue">OR</h3>
 
-                <div className="form-qr w-1/4">
+                <div className="form-qr w-1/3 lg:w-1/4">
                     <h3>Scan QR Code</h3>
                     <img src={qr} alt="QR Code" />
                 </div>

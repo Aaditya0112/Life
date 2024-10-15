@@ -7,41 +7,42 @@ import moefcc from "../images/moefcc-logo.jpg"
 import gom from "../images/Seal_of_Maharashtra.svg.webp"
 
 const Supporters = () => {
-    return (
-        <>
-        <div className="Venue_Partner">
-                <h1 className="lgreen text-center m-4">Venue Partner</h1>
-                <div className="supporters-logos">
+  return (
+    <>
 
-                    {SupportersLogo.Venue.map((item) => (
-                        <div className={item.title}>
-                            <a href={item.webpage} target="_blank"><img src={item.img} alt={item.title} /></a>
-                        </div>
-                    ))}
+      <div className="Associate_Supporters">
+        <h1 className="lgreen text-center m-4">Associate Partners</h1>
+        <div className="supporters-logos">
 
-                </div>
+          {SupportersLogo.Associate.map((item) => (
+            <div className={item.title}>
+              <a href={item.webpage} target="_blank"><img src={item.img} alt={item.title} /></a>
             </div>
-            <div className="Associate_Supporters">
-                <h1 className="lgreen text-center m-4">Associate Partners</h1>
-                <div className="supporters-logos">
+          ))}
 
-                    {SupportersLogo.Associate.map((item) => (
-                        <div className={item.title}>
-                            <a href={item.webpage} target="_blank"><img src={item.img} alt={item.title} /></a>
-                        </div>
-                    ))}
+        </div>
+      </div>
+      <div className="Venue_Partner">
+        <h1 className="lgreen text-center m-4">Venue Partner</h1>
+        <div className="supporters-logos">
 
-                </div>
+          {SupportersLogo.Venue.map((item) => (
+            <div className={item.title}>
+              <a href={item.webpage} target="_blank"><img src={item.img} alt={item.title} /></a>
             </div>
-            <div className="Supporters">
-                <h1 className="lgreen text-center m-4">Supported by</h1>
-                <div className="supporters-logos">
-          <div className="goi">
-            <div className="goi-sub flex">
+          ))}
+
+        </div>
+      </div>
+      <div className="Supporters">
+        <h1 className="lgreen text-center m-4">Supported by</h1>
+        <div className="supporters-logos">
+          <div className="goi w-full lg:w-auto">
+            <div className="goi-sub flex ">
               <img src={goi} alt="Govt.of India" />
               <img src={moefcc} alt="MOEFCC" />
             </div>
-            <h5 className='text-center'>Ministry of Environment,<br/>
+            <h5 className='text-center text-sm lg:text-xl'>Ministry of Environment,<br/>
             Forest & Climate Change</h5>
 
           </div>
@@ -49,43 +50,45 @@ const Supporters = () => {
           <div className="gom">
           <div className="gom-sub flex items-center gap-2">
               <img src={gom} alt="Govt.of Maharashtra" />
-              <h5 className='font-bold'>Government of <br/>
+              <h5 className='font-bold text-center text-sm lg:text-xl'>Government of <br/>
               Maharashtra</h5>
             </div>
-            <h5 className='text-center'>Ministry of Urban Development | Forest <br/>
+            <h5 className='text-center text-sm lg:text-xl '>Ministry of Urban Development | Forest<br/>
             Department | Department of Water Resources</h5>
           </div>
         </div>
-                <div className="supporters-logos">
-                {SupportersLogo.Supporters_1.map((item) => {
-            if (item.title == "IIT Bombay" || item.title == "IIT Indore" || item.title == "NIT Warangal") {
-              return(<div className={item.title}>
-              <a href={item.webpage} target="_blank"><img src={item.img} alt={item.title} /></a>
-              <h5>{item.title}</h5>
-            </div>)
-            }else{
-              return(
+
+        <div className="supporters-logos ga-0">
+          {SupportersLogo.Supporters_1.map((item) => {
+            if (item.title === "IIT Bombay" || item.title === "IIT Indore" || item.title === "NIT Warangal") {
+              return (<div className={item.title}>
+                <a href={item.webpage} target="_blank"><img src={item.img} alt={item.title} /></a>
+                <h5 className='text-center text-xs lg:text-xl'>{item.title}</h5>
+              </div>)
+            } else {
+              return (
                 <div className={item.title}>
-              <a href={item.webpage} target="_blank"><img src={item.img} alt={item.title} /></a>
-              
-            </div>
+                  <a href={item.webpage} target="_blank"><img src={item.img} alt={item.title} /></a>
+
+                </div>
               )
-            }}
-            
+            }
+          }
+
           )}
 
-                </div>
-                <div className="supporters-logos">
-                    {SupportersLogo.Supporters_2.map((item) => (
-                        <div className={item.title}>
-                            <a href={item.webpage} target="_blank"><img src={item.img} alt={item.title} /></a>
-                        </div>
-                    ))}
-                </div>
-
+        </div>
+        <div className="supporters-logos ga-0">
+          {SupportersLogo.Supporters_2.map((item) => (
+            <div className={item.title}>
+              <a href={item.webpage} target="_blank"><img src={item.img} alt={item.title} /></a>
             </div>
-        </>
-    )
+          ))}
+        </div>
+
+      </div>
+    </>
+  )
 }
 
 export default Supporters;
