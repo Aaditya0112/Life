@@ -140,28 +140,28 @@ const Home = () => {
         <span className='text-center text-lg font-bold my-2'>In association with </span>
 
         <div className="supporters-logos">
-          {SupportersLogo.Associate.map((item) => (
-            <div className={item.title}>
-              <a href={item.webpage} target="_blank"><img src={item.img} alt={item.title} /></a>
+        {SupportersLogo.Associate.map((item) => (
+            <div className={item.title + ' rounded '}>
+              <a href={item.webpage} target="_blank"><img className="h-32"src={item.img} alt={item.title} /></a>
             </div>
           ))}
         </div>
         <span className='text-center text-lg font-bold my-2'>Venue Partner </span>
 
         <div className="supporters-logos">
-          {SupportersLogo.Venue.map((item) => (
+        {SupportersLogo.Venue.map((item) => (
             <div className={item.title}>
-              <a href={item.webpage} target="_blank"><img src={item.img} alt={item.title} /></a>
+              <a href={item.webpage} target="_blank"><img className="h-28" src={item.img} alt={item.title} /></a>
             </div>
           ))}
         </div>
 
         <span className='text-center text-lg font-bold my-2'>Supported By </span>
         <div className="supporters-logos">
-          <div className="goi w-full lg:w-auto">
+          <div className="goi w-full  lg:w-auto">
             <div className="goi-sub flex ">
-              <img src={goi} alt="Govt.of India" />
-              <img src={moefcc} alt="MOEFCC" />
+              <img className="h-16 lg:h-24" src={goi} alt="Govt.of India" />
+              <img className="h-16 lg:h-24" src={moefcc} alt="MOEFCC" />
             </div>
             <h5 className='text-center text-sm lg:text-xl'>Ministry of Environment,<br/>
             Forest & Climate Change</h5>
@@ -170,7 +170,7 @@ const Home = () => {
 
           <div className="gom">
           <div className="gom-sub flex items-center gap-2">
-              <img src={gom} alt="Govt.of Maharashtra" />
+              <img className="h-16 lg:h-24" src={gom} alt="Govt.of Maharashtra" />
               <h5 className='font-bold text-center text-sm lg:text-xl'>Government of <br/>
               Maharashtra</h5>
             </div>
@@ -183,13 +183,13 @@ const Home = () => {
           {SupportersLogo.Supporters_1.map((item) => {
             if (item.title === "IIT Bombay" || item.title === "IIT Indore" || item.title === "NIT Warangal") {
               return (<div className={item.title}>
-                <a href={item.webpage} target="_blank"><img src={item.img} alt={item.title} /></a>
+                <a href={item.webpage} target="_blank"><img className="h-20 lg:h-24" src={item.img} alt={item.title} /></a>
                 <h5 className='text-center text-xs lg:text-xl'>{item.title}</h5>
               </div>)
             } else {
               return (
                 <div className={item.title}>
-                  <a href={item.webpage} target="_blank"><img src={item.img} alt={item.title} /></a>
+                  <a href={item.webpage} target="_blank"><img className="h-20 lg:h-24" src={item.img} alt={item.title} /></a>
 
                 </div>
               )

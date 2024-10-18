@@ -3,6 +3,7 @@ import iitk_logo from '../images/iitk_logo.png';
 import nitw from "../images/NITW-logo.png"
 import igbc from '../images/IGBC.jpg'
 import iskcon from "../images/iskcon_logo.jpg"
+import iitb from "../images/IITB_Logo.svg"
 
 const Committee = () => { 
     return(<>
@@ -13,7 +14,7 @@ const Committee = () => {
 
     <section class="committee">
     <div class="member flex flex-col items-center justify-center text-lg">
-        <img className ="h-24 "src={iskcon} alt="NITW Logo" />
+        <img className ="h-24 "src={iskcon} alt="ISKCON" />
             <h2 className="text-2xl">Shri Gauranga Das</h2>
             <p class="role">Director, Govardhan Ecovillage</p>
             <a className="no-underline font-semibold" href="https://gaurangadas.com/" target="_blank"> Homepage</a>
@@ -55,8 +56,9 @@ const Committee = () => {
 
 
         <div class="member flex flex-col items-center justify-center">
+        <img className ="h-24 "src={iitb} alt="IITB" />
             <h2 className="text-2xl">Mr. Gajendra</h2>
-            <p class="role"></p>
+            <p class="role">PhD scholar, IIT Bombay</p>
         </div>
 
         <div class="member flex flex-col items-center justify-center">
@@ -67,7 +69,7 @@ const Committee = () => {
         <div class="member flex flex-col items-center justify-center">
             <img className ="h-24 "src={iitk_logo} alt="IITK Logo" />
             <h2 className="text-2xl">Arpan Gayen</h2>
-            <p class="role">PhD, IIT Kanpur</p>
+            <p class="role">PhD Scholar, IIT Kanpur</p>
             <a href='' target='_blank'><i style={{fontSize : '3rem', color :'#0a66c2', cursor:'pointer'
                 }} class="fa fa-linkedin-square"></i></a>
         </div>

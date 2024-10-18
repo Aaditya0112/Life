@@ -34,10 +34,14 @@ body{
   justify-content: center;
   gap: 8rem;
 }
-.supporters-logos img,.logos img{
+.supporters-logos img{
   width: auto;
   padding: 10px;
-  height: 100px;
+}
+.logos img{
+  width: auto;
+  padding: 10px;
+  height : 6.25rem;
 }
 .nav{
   justify-content: space-evenly;
@@ -386,7 +390,7 @@ p{
   }
   .supporters-logos img{
     width: fit-content;
-    height: 65px;
+
   }
   .supporters-logos{
     gap: 2rem;
