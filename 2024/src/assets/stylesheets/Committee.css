@@ -32,7 +32,7 @@ header p {
 .committee {
     display: flex;
     flex-wrap: wrap;
-
+    justify-content: center;
     gap: 40px;
     padding: 0 50px;
 }

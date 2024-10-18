@@ -17,6 +17,7 @@ import Venue from './assets/pages/Venue';
 import Supporters from './assets/pages/Supporters';
 import Speakers from './assets/pages/Speakers';
 import Committee from './assets/pages/Committee';
+import LandingPage from './assets/pages/LandingPage';
 
 
 
@@ -34,20 +35,21 @@ function App() {
     <>
       <BrowserRouter>
     <Routes>
-    <Route path="/" element={<Layout />}>
-      <Route path='/' element={<Home />} />
-      <Route path="/about" element={<About />} />
+      <Route path='/' element={<LandingPage/>}/>
+    <Route path="/2024" element={<Layout />}>
+      <Route path='/2024' element={<Home />} />
+      <Route path="/2024/about" element={<About />} />
       {/* <Route path="/committee" element={<Committee />} /> */}
-      <Route path="/speakers" element={<Speakers/>} />
-      <Route path="/eventDetails" element={<EventDetails />} />
-      <Route path="/committee" element={<Committee/>} />
-      <Route path='/venue' element = {<Venue/>}/>
-      <Route path='/supporters' element = {<Supporters/>}/>
+      <Route path="/2024/speakers" element={<Speakers/>} />
+      <Route path="/2024/eventDetails" element={<EventDetails />} />
+      <Route path="/2024/committee" element={<Committee/>} />
+      <Route path='/2024/venue' element = {<Venue/>}/>
+      <Route path='/2024/supporters' element = {<Supporters/>}/>
 
-      <Route path="/registration" element={<Registration />} />
+      <Route path="/2024/registration" element={<Registration />} />
 
 
-      <Route path="/contact" element={<Contact />} />
+      <Route path="/2024/contact" element={<Contact />} />
 
       <Route path="*" element={<NoPage />} /> 
     </Route>

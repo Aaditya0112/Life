@@ -1,0 +1,81 @@
+/* ThemesWithTitles.css */
+
+/* Container for both grid and list */
+.themes-container {
+    display: grid;
+    /* grid-template-columns: 1fr; Two-thirds for the grid, one-third for the list */
+    gap: 20px;
+    padding: 20px;
+    background-color: #eff4e4; /* Light background for overall container */
+    border-radius: 8px;
+  }
+  
+  /* Grid layout for the images */
+  .themes-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for the theme grid */
+    gap: 20px;
+  }
+  
+  .theme-item {
+    text-align: center;
+    position: relative;
+    border: 0px ;
+    padding: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  
+  .theme-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+  }
+  
+  .theme-title {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Styling for the list of themes */
+  .themes-list {
+    background-color: #eff4e4;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .heading {
+    font-size: 1.5em;
+    color: #b1511c; /* Orange color for heading */
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .arrow {
+    font-size: 1.2em;
+    color: #b1511c;
+    margin-left: 5px;
+  }
+  
+
+  
+
+  
+  .theme-number {
+    
+    color: #b1511c;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-right: 15px;
+    
+  }
+  
+  .theme-list-title {
+    font-weight: bold;
+    text-align: center;
+
+  }
+  

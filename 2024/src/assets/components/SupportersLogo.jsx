@@ -7,7 +7,7 @@ import goi from '../images/Government_of_India_logo.png'
 import cii from "../images/cii-logo.png"
 import crdc from "../images/creduce-logo.png"
 import ficci from"../images/FICCI_logo.png"
-import ssa from "../images/ssa-logo.jpeg"
+import hsa from "../images/hsa.png"
 import terviva from "../images/terviva-logo.png"
 import gom from "../images/Seal_of_Maharashtra.svg.webp"
 import nitw from"../images/NITW-logo.png"
@@ -41,7 +41,7 @@ const SupportersLogo = {
     Supporters_2:[
       {title:'Terviva', img : terviva, webpage :'https://terviva.com/'},
       {title:'Creduce', img : crdc, webpage :'https://creduce.tech/'},
-      {title:'SSA', img : ssa, webpage :'https://ssaarchitects.com/'}
+      {title:'HSA', img : hsa, webpage :'http://hitensethi.com/'}
     ]
 
     };

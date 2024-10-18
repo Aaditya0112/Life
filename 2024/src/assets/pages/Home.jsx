@@ -32,6 +32,8 @@ import t1 from"../images/Theme1.webp"
 
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import Themes from '../components/Themes';
+
 const Home = () => {
 
   const eventDate = new Date('2024-10-31T00:00:00Z');
@@ -221,17 +223,10 @@ const Home = () => {
       </div>
       <div className="about-pera">
         <span className="heading lgreen">
-          <h1>Themes</h1>
-        </span>
+          <h1>Core Themes</h1></span>
 
-        <p >
-          Sustainability is at the core of Indian civilization – the world’s most ancient continuous living culture
-          and tradition. Our scriptures espouse a life in full harmony with nature. Our ancestors advocate
-          custodianship, prudent use, and conservation of natural resources. Present day challenges demand
-          that we recall our approach towards natural resources to ensure a better, sustainable future for our
-          future generations. Experts will share their views on how to participate in the mission, create models,
-          and put them in practice for a sustainable living – individually and collectively.
-        </p>
+        {/* <ThemesList/> */}
+        <Themes/>
 
         {/* <img src={t1} alt="" />
         <h3>
