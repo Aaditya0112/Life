@@ -289,6 +289,13 @@ p{
   justify-content: center;
 }
 
+  .s{
+  display:grid !important;
+  justify-items: center;
+}
+
+
+
 
 @media (max-width: 767px) {
   .timeline-1 {

@@ -16,7 +16,7 @@ const Committee = () => {
         <img className ="h-24 "src={iskcon} alt="NITW Logo" />
             <h2 className="text-2xl">Shri Gauranga Das</h2>
             <p class="role">Director, Govardhan Ecovillage</p>
-            <a className="decoration-none" href="https://gaurangadas.com/"> Homepage</a>
+            <a className="no-underline font-semibold" href="https://gaurangadas.com/" target="_blank"> Homepage</a>
 
             
         </div>
@@ -50,7 +50,7 @@ const Committee = () => {
         <img className ="h-24 "src={nitw} alt="NITW Logo" />
             <h2 className="text-2xl">Prof. Hari Krishna Padavala</h2>
             <p class="role">NIT Warangal</p>
-            <a className="decoration-none" href="https://erp.nitw.ac.in/ext/profile/ce-phari"> Homepage</a>
+            <a className="no-underline font-semibold" href="https://erp.nitw.ac.in/ext/profile/ce-phari" target="_blank"> Homepage</a>
         </div>
 
 

@@ -34,10 +34,10 @@ const Supporters = () => {
 
         </div>
       </div>
-      <div className="Supporters">
+      <div className="Supporters lg:flex flex-col items-center">
         <h1 className="lgreen text-center m-4">Supported by</h1>
         <div className="supporters-logos">
-          <div className="goi w-full lg:w-auto">
+          <div className="goi w-full  lg:w-auto">
             <div className="goi-sub flex ">
               <img src={goi} alt="Govt.of India" />
               <img src={moefcc} alt="MOEFCC" />
@@ -58,7 +58,7 @@ const Supporters = () => {
           </div>
         </div>
 
-        <div className="supporters-logos ga-0">
+        <div className="supporters-logos lg:w-4/5 s lg:flex align-center m-10 grid-cols-3 lg:grid-cols-5 ga-0">
           {SupportersLogo.Supporters_1.map((item) => {
             if (item.title === "IIT Bombay" || item.title === "IIT Indore" || item.title === "NIT Warangal") {
               return (<div className={item.title}>
@@ -76,14 +76,15 @@ const Supporters = () => {
           }
 
           )}
-
-        </div>
-        <div className="supporters-logos ga-0">
           {SupportersLogo.Supporters_2.map((item) => (
             <div className={item.title}>
               <a href={item.webpage} target="_blank"><img src={item.img} alt={item.title} /></a>
             </div>
           ))}
+
+        </div>
+        <div className="supporters-logos ga-0">
+          
         </div>
 
       </div>
