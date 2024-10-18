@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a142eb3d.css",
-    "main.js": "/static/js/main.5af7786d.js",
+    "main.css": "/static/css/main.e59a2255.css",
+    "main.js": "/static/js/main.52093acb.js",
     "static/media/NSE.jpg": "/static/media/NSE.a15dc75d1234a7cc2cf1.jpg",
     "static/media/slide-one.mp4": "/static/media/slide-one.318d0536d76e925a0f9e.mp4",
     "static/media/Life-logo.jpg": "/static/media/Life-logo.4155f35b6fddf662ea13.jpg",
@@ -40,11 +40,11 @@
     "static/media/Radhanath_swami.jpg": "/static/media/Radhanath_swami.d465dcc3f8744cef3484.jpg",
     "static/media/NSE-logo.png": "/static/media/NSE-logo.4e2519f4ce846369c003.png",
     "index.html": "/index.html",
-    "main.a142eb3d.css.map": "/static/css/main.a142eb3d.css.map",
-    "main.5af7786d.js.map": "/static/js/main.5af7786d.js.map"
+    "main.e59a2255.css.map": "/static/css/main.e59a2255.css.map",
+    "main.52093acb.js.map": "/static/js/main.52093acb.js.map"
   },
   "entrypoints": [
-    "static/css/main.a142eb3d.css",
-    "static/js/main.5af7786d.js"
+    "static/css/main.e59a2255.css",
+    "static/js/main.52093acb.js"
   ]
 }
