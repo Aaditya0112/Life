@@ -120,7 +120,7 @@ const Home = () => {
 
       {/* PERA Sponsors */}
 
-      <div className="pera-sponsors flex flex-col">
+      <div className="life-sponsors flex flex-col justify-center items-center">
         <div className="org">
           <p><h1 className='text-center dgreen'>LiFE 2024</h1></p>
         </div>
@@ -179,7 +179,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="supporters-logos ga-0">
+        <div className="supporters-logos lg:w-4/5 s lg:flex align-center m-10 grid-cols-3 lg:grid-cols-5 ga-0">
           {SupportersLogo.Supporters_1.map((item) => {
             if (item.title === "IIT Bombay" || item.title === "IIT Indore" || item.title === "NIT Warangal") {
               return (<div className={item.title}>
@@ -197,15 +197,20 @@ const Home = () => {
           }
 
           )}
-
-        </div>
-        <div className="supporters-logos ga-0">
           {SupportersLogo.Supporters_2.map((item) => (
             <div className={item.title}>
               <a href={item.webpage} target="_blank"><img src={item.img} alt={item.title} /></a>
             </div>
           ))}
+
         </div>
+        {/* <div className="supporters-logos ga-0">
+          {SupportersLogo.Supporters_2.map((item) => (
+            <div className={item.title}>
+              <a href={item.webpage} target="_blank"><img src={item.img} alt={item.title} /></a>
+            </div>
+          ))}
+        </div> */}
 
         <div className="skills" id="skills">
           {/* {

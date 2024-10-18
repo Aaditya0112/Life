@@ -83,9 +83,7 @@ const Supporters = () => {
           ))}
 
         </div>
-        <div className="supporters-logos ga-0">
-          
-        </div>
+
 
       </div>
     </>
