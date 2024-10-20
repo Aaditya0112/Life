@@ -40,7 +40,7 @@ function Schedule() {
           <TimelineDot />
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}><span style={{ fontWeight: "bold" }} >Shri C.P Radha Krishnan</span> - <span style={{ fontSize: "smaller" }} >Governor of Maharashtra</span></TimelineContent>
+        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}><span style={{ fontWeight: "bold" }} >* Shri C.P Radha Krishnan</span> - <span style={{ fontSize: "smaller" }} >Governor of Maharashtra</span></TimelineContent>
       </TimelineItem>
       <TimelineItem>
         <TimelineOppositeContent sx={{ py: '12px', px: 2, color: '#226b1e' }}>
@@ -50,7 +50,7 @@ function Schedule() {
           <TimelineDot />
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}><span style={{ fontWeight: "bold" }}>Shri Bhupender Yadav</span> - <span style={{ fontSize: "smaller" }} >Minister of Environment, Forest and Climate Change, Govt. of India</span></TimelineContent>
+        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}><span style={{ fontWeight: "bold" }}>* Shri Bhupender Yadav</span> - <span style={{ fontSize: "smaller" }} >Minister of Environment, Forest and Climate Change, Govt. of India</span></TimelineContent>
       </TimelineItem>
       <TimelineItem>
         <TimelineOppositeContent sx={{ py: '12px', px: 2, color: '#226b1e' }}>

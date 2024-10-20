@@ -9,14 +9,25 @@ import gom from "../images/Seal_of_Maharashtra.svg.webp"
 const Supporters = () => {
   return (
     <>
+    <div className="orgsniser">
+    <h1 className="lgreen text-center m-4">Organised By</h1>
+        <div className="supporters-logos">
+
+          {SupportersLogo.Organiser.map((item) => (
+            <div className={item.title + ' rounded '}>
+              <a href={item.webpage} target="_blank"><img className="h-32" src={item.img} alt={item.title} /></a>
+            </div>
+          ))}
+          </div>
+    </div>
 
       <div className="Associate_Supporters">
-        <h1 className="lgreen text-center m-4">Associate Partners</h1>
+        <h1 className="lgreen text-center m-4">in Association With</h1>
         <div className="supporters-logos">
 
           {SupportersLogo.Associate.map((item) => (
             <div className={item.title + ' rounded '}>
-              <a href={item.webpage} target="_blank"><img className="h-32"src={item.img} alt={item.title} /></a>
+              <a href={item.webpage} target="_blank"><img className="h-32" src={item.img} alt={item.title} /></a>
             </div>
           ))}
 
@@ -34,7 +45,7 @@ const Supporters = () => {
 
         </div>
       </div>
-      <div className="Supporters lg:flex flex-col items-center">
+      {/* <div className="Supporters lg:flex flex-col items-center">
         <h1 className="lgreen text-center m-4">Supported by</h1>
         <div className="supporters-logos">
           <div className="goi w-full  lg:w-auto">
@@ -42,19 +53,19 @@ const Supporters = () => {
               <img className="h-16 lg:h-24" src={goi} alt="Govt.of India" />
               <img className="h-16 lg:h-24" src={moefcc} alt="MOEFCC" />
             </div>
-            <h5 className='text-center text-sm lg:text-xl'>Ministry of Environment,<br/>
-            Forest & Climate Change</h5>
+            <h5 className='text-center text-sm lg:text-xl'>Ministry of Environment,<br />
+              Forest & Climate Change</h5>
 
           </div>
 
           <div className="gom">
-          <div className="gom-sub flex items-center gap-2">
+            <div className="gom-sub flex items-center gap-2">
               <img className="h-16 lg:h-24" src={gom} alt="Govt.of Maharashtra" />
-              <h5 className='font-bold text-center text-sm lg:text-xl'>Government of <br/>
-              Maharashtra</h5>
+              <h5 className='font-bold text-center text-sm lg:text-xl'>Government of <br />
+                Maharashtra</h5>
             </div>
-            <h5 className='text-center text-sm lg:text-xl '>Ministry of Urban Development | Forest<br/>
-            Department | Department of Water Resources</h5>
+            <h5 className='text-center text-sm lg:text-xl '>Ministry of Urban Development | Forest<br />
+              Department | Department of Water Resources</h5>
           </div>
         </div>
 
@@ -85,7 +96,7 @@ const Supporters = () => {
         </div>
 
 
-      </div>
+      </div> */}
     </>
   )
 }

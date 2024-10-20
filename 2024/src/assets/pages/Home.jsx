@@ -156,8 +156,9 @@ const Home = () => {
           ))}
         </div>
 
-        <span className='text-center text-lg font-bold my-2'>Supported By </span>
-        <div className="supporters-logos">
+        {/* <span className='text-center text-lg font-bold my-2'>Supported By </span> */}
+        
+        {/* <div className="supporters-logos">
           <div className="goi w-full  lg:w-auto">
             <div className="goi-sub flex ">
               <img className="h-16 lg:h-24" src={goi} alt="Govt.of India" />
@@ -203,7 +204,7 @@ const Home = () => {
             </div>
           ))}
 
-        </div>
+        </div> */}
         {/* <div className="supporters-logos ga-0">
           {SupportersLogo.Supporters_2.map((item) => (
             <div className={item.title}>

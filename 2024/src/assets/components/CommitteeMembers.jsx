@@ -10,8 +10,8 @@ import vb from "../images/speakers/vardar.jpg"
 
 const CommitteeMembers = {
     advisory: [        
-      { name: 'Shri C P Radhakrishnan', image: cpr , designation:'Hon. Governor of Maharashtra',link:'https://en.wikipedia.org/wiki/C._P._Radhakrishnan'},
-      { name: 'Shri Bhupender Yadav', image: by, designation:'Hon. Minister, Government of India' ,link:'https://en.wikipedia.org/wiki/Bhupender_Yadav'},
+      { name: '*Shri C P Radhakrishnan', image: cpr , designation:'Hon. Governor of Maharashtra',link:'https://en.wikipedia.org/wiki/C._P._Radhakrishnan'},
+      { name: '*Shri Bhupender Yadav', image: by, designation:'Hon. Minister, Government of India' ,link:'https://en.wikipedia.org/wiki/Bhupender_Yadav'},
       { name: 'Shri S Gurumurthy', image: sgm, designation:'CA, Corporate & Legal Adviser' ,link:'https://en.wikipedia.org/wiki/Swaminathan_Gurumurthy'},
   
       { name: 'HH Radhanath Swami', image: rns, designation:'Spiritual Leader, Teacher, Author',link:'https://www.radhanathswami.com/about-radhanath-swami/' },

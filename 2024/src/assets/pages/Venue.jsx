@@ -21,7 +21,8 @@ Bandra (E), Mumbai – 400 051
                         <h1 className="dblue">How to Reach Venue</h1>
 
                         <h4>Nearest Airport - Mumbai (6.7 kms)</h4>
-                        <h4>Nearest Railway Station - Bandra </h4>
+                        <h4>Nearest Railway Station (Western line) - Bandra (2.9 km) </h4>
+                        <h4>Nearest Railways Station (Central line) - Kurla (3.3 km)</h4>
                         
                         {/* <h3>Domestic Train Travel</h3> */}
 					{/* <p>Train service in India is provided by the Indian Railways and is the most popular form of public transportation. Passenger service in the Indian Railways is divided into several classes, namely, Air Conditioned I (First) class, Air Conditioned II (Two Tier) class, Air Conditioned III (3-tier) class, Air Conditioned Chair Car and Sleeper Class. The Rajdhani and the Shatabdi family of trains are widely regarded as the best trains in India. Train reservations can be made at one of the many Railway reservation counters all over India or over the internet using the Indian Railways e-ticket facility. See the Indian Railways website for further details. For those inexperienced in travelling by the Indian Railways, it is recommended that they travel by one of Air Conditioned I, Air Conditioned II or the Air Condit ioned Chair Car (for Shatabdi trains) classes.</p> */}

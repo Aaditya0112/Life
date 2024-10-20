@@ -7,8 +7,10 @@ const Speakers = () => {
   const data = CommitteeMembers;
 
   return (
-    <div>
+    <div className='flex flex-col'>
       <CommitteeSection id = '1' title = 'Speakers' info = {data.advisory}/>
+      
+      <p className=' mx-12 lg:mx-80 font-bold'><span className='text-red-500'>*</span> - Subject to Confirmation</p>
 
     </div>
   );

@@ -50,15 +50,17 @@ const Layout = () => {
                     <div className="gev">
                     <a href = "https://ecovillage.org.in/" target="_blank"><img src={gev} alt = "GEV-Logo" /></a>
                     </div>
-                    <div className="nse-logo">
-                    <a href = "https://www.nseindia.com" target="_blank"><img src={nselogo} alt="nse" /></a>
-                    </div>
+   
                     <div className="inst-logo">
                         <a href = "https://iitk.ac.in" target="_blank"><img src={iitk_logo} alt="IITK Logo" /></a>
                     </div>
 
                     <div className="igbc">
                     <a href = "https://igbc.in/" target="_blank"><img src={igbc} alt= "IGBC-Logo" /></a>
+                    </div>
+                    <div className="nse-logo">
+                    
+                    <a href = "https://www.nseindia.com" target="_blank"><img src={nselogo} alt="nse" /></a>
                     </div>
                     
                     
