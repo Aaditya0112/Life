@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e59a2255.css",
-    "main.js": "/static/js/main.2444cbd6.js",
+    "main.js": "/static/js/main.c1bc5047.js",
     "static/media/NSE.jpg": "/static/media/NSE.a15dc75d1234a7cc2cf1.jpg",
     "static/media/slide-one.mp4": "/static/media/slide-one.318d0536d76e925a0f9e.mp4",
     "static/media/Life-logo.jpg": "/static/media/Life-logo.4155f35b6fddf662ea13.jpg",
@@ -29,7 +29,6 @@
     "static/media/hsa.png": "/static/media/hsa.8f09fe80d9bdfbeeeefb.png",
     "static/media/iitk_logo.png": "/static/media/iitk_logo.13742586b87ba6b0765b.png",
     "static/media/IITB_Logo.svg": "/static/media/IITB_Logo.6c4b7c08c915eec5ee889199d0bb2be6.svg",
-    "static/media/theme_4.jpg": "/static/media/theme_4.e72c13e2b17887c32c68.jpg",
     "static/media/Hiten-Sethi.jpg": "/static/media/Hiten-Sethi.b3af71a0c641dd415225.jpg",
     "static/media/assocham-logo.jpg": "/static/media/assocham-logo.d00c586895f9700084ca.jpg",
     "static/media/NITW-logo.png": "/static/media/NITW-logo.e7d0e2bd25310c2d6b8b.png",
@@ -41,10 +40,10 @@
     "static/media/NSE-logo.png": "/static/media/NSE-logo.4e2519f4ce846369c003.png",
     "index.html": "/index.html",
     "main.e59a2255.css.map": "/static/css/main.e59a2255.css.map",
-    "main.2444cbd6.js.map": "/static/js/main.2444cbd6.js.map"
+    "main.c1bc5047.js.map": "/static/js/main.c1bc5047.js.map"
   },
   "entrypoints": [
     "static/css/main.e59a2255.css",
-    "static/js/main.2444cbd6.js"
+    "static/js/main.c1bc5047.js"
   ]
 }
