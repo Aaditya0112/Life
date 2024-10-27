@@ -1,9 +1,9 @@
 import React from 'react';
 import '../stylesheets/Themes.css'; 
 import t1 from"../images/Theme1.webp" // You can create and link your CSS file here
-import ssc from "../images/Theme2.jpg"
+// import ssc from "../images/Theme2.jpg"
 import t3 from "../images/theme_3.jpeg"
-import t4 from "../images/theme_4.jpg"
+// import t4 from "../images/theme_4.jpg"
 
 
 // import React from 'react';
@@ -19,14 +19,14 @@ const Themes = () => {
       title: 'Leveraging Sustainability Economics',
       imageUrl: t3,
     },
-    {
-      title: 'Sustainable Technologies & Value Chains',
-      imageUrl: ssc,
-    },
-    {
-      title: 'Sustainable Future Planning at Scale',
-      imageUrl: t4,
-    },
+    // {
+    //   title: 'Sustainable Technologies & Value Chains',
+    //   imageUrl: ssc,
+    // },
+    // {
+    //   title: 'Sustainable Future Planning at Scale',
+    //   imageUrl: t4,
+    // },
   ];
 
   return (

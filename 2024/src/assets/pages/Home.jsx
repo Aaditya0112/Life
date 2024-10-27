@@ -234,19 +234,7 @@ const Home = () => {
         {/* <ThemesList/> */}
         <Themes/>
 
-        {/* <img src={t1} alt="" />
-        <h3>
-          
-        Consciousness, Culture and Sustainability
-        </h3>
 
-        <img src={ssc} alt="" />
-        <h3>
-          
-        Sustainable Technologies & Value Chains
-        </h3> */}
-        {/* <!-- <iframe height="480" width="500" src="https://www.youtube.com/embed/PL3Odw-k8W4 ">
-    </iframe> --> */}
       </div>
 
       <div className="countdown">
