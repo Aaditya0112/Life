@@ -60,7 +60,7 @@ function Schedule() {
           <TimelineDot />
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}><span style={{ fontWeight: "bold" }}>Shri Ashish Kumar Chauhan</span> - <span style={{  fontSize: "smaller" }} > MD & CEO, National Stock Exchange </span></TimelineContent>
+        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}><span style={{ fontWeight: "bold" }}>Shri Ashishkumar Chauhan</span> - <span style={{  fontSize: "smaller" }} > MD & CEO, National Stock Exchange </span></TimelineContent>
       </TimelineItem>
 
       <TimelineItem>

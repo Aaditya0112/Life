@@ -15,7 +15,7 @@ const CommitteeMembers = {
       { name: 'Shri S Gurumurthy', image: sgm, designation:'CA, Corporate & Legal Adviser' ,link:'https://en.wikipedia.org/wiki/Swaminathan_Gurumurthy'},
   
       { name: 'HH Radhanath Swami', image: rns, designation:'Spiritual Leader, Teacher, Author',link:'https://www.radhanathswami.com/about-radhanath-swami/' },
-        { name: 'Shri Ashish Kumar Chauhan' , image: ac, designation:'MD & CEO, National Stock Exchange',link:'https://en.wikipedia.org/wiki/Ashish_Chauhan' },
+        { name: 'Shri Ashishkumar Chauhan' , image: ac, designation:'MD & CEO, National Stock Exchange',link:'https://en.wikipedia.org/wiki/Ashish_Chauhan' },
         { name: 'Prof. Varadraj Bapat', image: vb, designation:'IIT Bombay, SJMSOM',link:'https://www.som.iitb.ac.in/prof-varadraj-bapat/'},
         { name: 'Prof. Ganti S Murthy', image: gsm, designation:'IIT Indore, National Coordinator - IKS' ,link:'https://iiti.irins.org/profile/113223'},
         { name: 'Ar. Hiten Sethi', image: hs, designation:'Founder, HSA' ,link:'https://www.linkedin.com/in/realhitensethi/'},
