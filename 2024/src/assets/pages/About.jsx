@@ -53,7 +53,7 @@ Their robust state-of-the-art technology platform offers high levels of robustne
 
 
                 <div className="about-IITK">
-                    <h1 className="text-center dgreen mb-4">Indian Institute of Technology Kanpur</h1>
+                    <h1 className="text-center dgreen mb-4">Kotak School of Sustainability, IIT Kanpur</h1>
                     <div className="about-Gev lg:flex gap-28 lg:mx-40 mx-8 items-center">
                         <div className="img-iitk">
                             <img className="rounded-2xl" src={iitk} alt="IITK" />
@@ -61,9 +61,9 @@ Their robust state-of-the-art technology platform offers high levels of robustne
                         </div>
                         {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.682013292073!2d80.2322583149825!3d26.51242298331268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e3f3b3b3b3b3b%3A0x1b1b1b1b1b1b1b1b!2sIIT%20Kanpur!5e0!3m2!1sen!2sin!4v1633663660733!5m2!1sen!2sin" width="600" height="450" style={{ border: 0 }} allowfullscreen="" loading="lazy"></iframe> */}
                         <div className="aboutt">
-                            <p className="text-justify">IIT Kanpur is a premier government-funded institution for higher technical education in India. Consistently ranked amongst the top 5 engineering institutes in India over past several decades. IIT Kanpur offers courses in sciences, engineering, humanities and management. At IIT Kanpur, there is a strong emphasis on research in all our academic programs and we also have several specialized centers for research into various focus areas. Many of our alumni are leaders in academia and industry around the globe. The sprawling IIT Kanpur campus is located in the industrial city of Kanpur, only a few hours away from New Delhi, the Capital of India.
+                            <p className="text-justify">The Kotak School of Sustainability at IIT Kanpur aims to excel in sustainability education, research and innovation, technology development, entrepreneurship, and outreach. The school will spearhead the development of holistic end-to-end technology solutions for sustainable development for a healthy planet and species. The vision of the School is to provide thought leadership and solutions towards sustainability actions and prepare future generations to lead the cause of sustainable development
                             <br /><br />
-                            <a href="https://iitk.ac.in">Visit Homepage</a>
+                            <a href="https://kss.iitk.ac.in/">Visit Homepage</a>
                             </p>
                         </div>
 

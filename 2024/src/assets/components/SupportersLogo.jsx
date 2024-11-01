@@ -15,6 +15,7 @@ import moefcc from "../images/moefcc-logo.jpg"
 import iitb from "../images/IITB_Logo.svg"
 import iiti from "../images/IIT_Indore_Logo.png"
 import assocham from "../images/assocham-logo.jpg"
+import ksos from "../images/Kotak-School.svg"
 
 const SupportersLogo = { 
   Organiser:[
@@ -24,7 +25,7 @@ const SupportersLogo = {
     {title:'NSE', img : nselogo, webpage :'https://www.nseindia.com'}
   ],
   Associate :[
-    {title:'IIT Kanpur', img : iitk_logo, webpage :'https://iitk.ac.in'},
+    {title:'KSoS', img : ksos , webpage :'https://iitk.ac.in'},
     {title:'IGBC', img : igbc, webpage :'https://igbc.in/'}
   ],
 

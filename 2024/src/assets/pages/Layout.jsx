@@ -10,8 +10,9 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import life from '../images/Life-logo.jpg'
 import nselogo from '../images/NSE-logo.png'
+import ksos from "../images/Kotak-School.svg"
 
-import Typewriter from "typewriter-effect";
+
 
 const useTypewriter = (text, speed = 20) => {
     const [index, setIndex] = useState(0);
@@ -51,8 +52,8 @@ const Layout = () => {
                     <a href = "https://ecovillage.org.in/" target="_blank"><img src={gev} alt = "GEV-Logo" /></a>
                     </div>
    
-                    <div className="inst-logo">
-                        <a href = "https://iitk.ac.in" target="_blank"><img src={iitk_logo} alt="IITK Logo" /></a>
+                    <div className="inst-logo KSoS">
+                        <a href = "https://kss.iitk.ac.in/" target="_blank"><img src={ksos} alt="ksos Logo" /></a>
                     </div>
 
                     <div className="igbc">
