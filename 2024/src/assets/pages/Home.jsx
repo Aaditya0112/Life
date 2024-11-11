@@ -36,7 +36,7 @@ import Themes from '../components/Themes';
 
 const Home = () => {
 
-  const eventDate = new Date('2024-11-10T00:00:00Z');
+  const eventDate = new Date('2024-11-21T00:00:00Z');
   return (
     <>
 
@@ -110,7 +110,7 @@ const Home = () => {
           <h3 className="vertical-timeline-element-title">Registration Closes</h3>
 
           <p>
-            10<sup>th</sup> November, 2024
+            20<sup>th</sup> November, 2024
           </p>
 
         </VerticalTimelineElement>
