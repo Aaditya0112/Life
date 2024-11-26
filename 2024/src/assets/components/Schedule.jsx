@@ -40,7 +40,7 @@ function Schedule() {
           <TimelineDot />
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}><span style={{ fontWeight: "bold" }} >* Shri C.P Radha Krishnan</span> - <span style={{ fontSize: "smaller" }} >Governor of Maharashtra</span></TimelineContent>
+        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}><span style={{ fontWeight: "bold" }}>Prof. Ganti S Murthy</span> - <span style={{ fontSize: "smaller" }} >IIT Indore, National Coordinator – IKS </span></TimelineContent>
       </TimelineItem>
       <TimelineItem>
         <TimelineOppositeContent sx={{ py: '12px', px: 2, color: '#226b1e' }}>
@@ -50,33 +50,11 @@ function Schedule() {
           <TimelineDot />
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}><span style={{ fontWeight: "bold" }}>* Shri Bhupender Yadav</span> - <span style={{ fontSize: "smaller" }} >Minister of Environment, Forest and Climate Change, Govt. of India</span></TimelineContent>
+        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}><span style={{ fontWeight: "bold" }}>Mr. Rama Kant</span></TimelineContent>
       </TimelineItem>
       <TimelineItem>
         <TimelineOppositeContent sx={{ py: '12px', px: 2, color: '#226b1e' }}>
           <span style={{ fontWeight: "bold" }} >10:50 AM - 11:10 AM</span>
-        </TimelineOppositeContent>
-        <TimelineSeparator>
-          <TimelineDot />
-          <TimelineConnector />
-        </TimelineSeparator>
-        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}><span style={{ fontWeight: "bold" }}>Shri Ashishkumar Chauhan</span> - <span style={{  fontSize: "smaller" }} > MD & CEO, National Stock Exchange </span></TimelineContent>
-      </TimelineItem>
-
-      <TimelineItem>
-        <TimelineOppositeContent sx={{ py: '12px', px: 2, color: '#226b1e' }}>
-          <span style={{ fontWeight: "bold" }} >11:10 PM - 11:30 PM</span>
-        </TimelineOppositeContent>
-        <TimelineSeparator>
-          <TimelineDot />
-          <TimelineConnector />
-        </TimelineSeparator>
-        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}><span style={{ fontWeight: "bold" }}>Prof. Vardaraj Bapat</span> - <span style={{ fontSize: "smaller" }} >IIT Bombay, SJMSOM </span></TimelineContent>
-      </TimelineItem>
-
-      <TimelineItem>
-        <TimelineOppositeContent sx={{ py: '12px', px: 2, color: '#226b1e' }}>
-          <span style={{ fontWeight: "bold" }} >11:30 AM - 11:50 PM</span>
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineDot />
@@ -87,13 +65,36 @@ function Schedule() {
 
       <TimelineItem>
         <TimelineOppositeContent sx={{ py: '12px', px: 2, color: '#226b1e' }}>
+          <span style={{ fontWeight: "bold" }} >11:10 PM - 11:30 PM</span>
+        </TimelineOppositeContent>
+        <TimelineSeparator>
+          <TimelineDot />
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}><span style={{ fontWeight: "bold" }} > Shri C.P Radha Krishnan</span> - <span style={{ fontSize: "smaller" }} >Governor of Maharashtra</span></TimelineContent>
+      </TimelineItem>
+
+      <TimelineItem>
+        <TimelineOppositeContent sx={{ py: '12px', px: 2, color: '#226b1e' }}>
+          <span style={{ fontWeight: "bold" }} >11:30 AM - 11:50 PM</span>
+        </TimelineOppositeContent>
+        <TimelineSeparator>
+          <TimelineDot />
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}><span style={{ fontWeight: "bold" }}>Prof. Vardaraj Bapat</span> - <span style={{ fontSize: "smaller" }} >IIT Bombay, SJMSOM </span></TimelineContent>
+      </TimelineItem>
+
+      <TimelineItem>
+        <TimelineOppositeContent sx={{ py: '12px', px: 2, color: '#226b1e' }}>
           <span style={{ fontWeight: "bold" }} >11:50 AM - 12:00 PM</span>
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineDot />
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}><span style={{ fontWeight: "bold", fontFamily: "Cooper" }} >Break</span></TimelineContent>
+        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}><span style={{ fontWeight: "bold" }}>Prof. Ganesh Ramakrishnan</span></TimelineContent>
+
       </TimelineItem>
       
       <TimelineItem>
@@ -105,7 +106,8 @@ function Schedule() {
           <TimelineDot />
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}><span style={{ fontWeight: "bold" }}>Shri S Gurumurthy</span> - <span style={{ fontSize: "smaller" }} >CA, Corporate & Legal Advisor </span> </TimelineContent>
+        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}><span style={{ fontWeight: "bold", fontFamily: "Cooper" }} >Break</span></TimelineContent>
+
       </TimelineItem>
       <TimelineItem>
 
@@ -117,7 +119,7 @@ function Schedule() {
           <TimelineDot />
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}><span style={{ fontWeight: "bold" }}>Prof. Ganti S Murthy</span> - <span style={{ fontSize: "smaller" }} >IIT Indore, National Coordinator – IKS </span></TimelineContent>
+        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}><span style={{ fontWeight: "bold" }}>Ar. Hiten Sethi</span> - <span style={{ fontSize: "smaller" }} >Founder, HSA </span></TimelineContent>
       </TimelineItem>
       <TimelineItem>
         <TimelineOppositeContent sx={{ py: '12px', px: 2, color: '#226b1e' }}>
@@ -127,7 +129,7 @@ function Schedule() {
           <TimelineDot />
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}><span style={{ fontWeight: "bold" }}>Shri Sandeep Shikre</span> - <span style={{ fontSize: "smaller" }} >Founding Principal & CEO, SSA </span></TimelineContent>
+        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}><span style={{ fontWeight: "bold" }}>Shri S Gurumurthy</span> - <span style={{ fontSize: "smaller" }} >CA, Corporate & Legal Advisor </span> </TimelineContent>
       </TimelineItem> 
       
       
@@ -141,7 +143,7 @@ function Schedule() {
           <TimelineDot />
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}><span style={{ fontWeight: "bold" }}>Shri Gauranga Das</span> - <span style={{fontSize: "smaller" }} >Director, GEV </span> </TimelineContent>
+        <TimelineContent sx={{ py: '12px', px: 2, color: '#010d82' }}><span style={{ fontWeight: "bold" }}>HG Gauranga Das</span> - <span style={{fontSize: "smaller" }} >Director, GEV </span> </TimelineContent>
       </TimelineItem>
       <TimelineItem>
         <TimelineOppositeContent sx={{ py: '12px', px: 2, color: '#226b1e' }}>
