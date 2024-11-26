@@ -237,9 +237,9 @@ const Home = () => {
 
       </div>
 
-      <div className="countdown">
+      {/* <div className="countdown">
         <Timer eventDate={eventDate} />
-      </div>
+      </div> */}
 
 
     </>
