@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.712e43a7.css",
-    "main.js": "/static/js/main.650e39c5.js",
+    "main.js": "/static/js/main.d2d6dbc0.js",
     "static/media/NSE.jpg": "/static/media/NSE.a15dc75d1234a7cc2cf1.jpg",
     "static/media/slide-one.mp4": "/static/media/slide-one.318d0536d76e925a0f9e.mp4",
     "static/media/Life-logo.jpg": "/static/media/Life-logo.4155f35b6fddf662ea13.jpg",
@@ -38,13 +38,14 @@
     "static/media/cii-logo.png": "/static/media/cii-logo.47b5285bf390f975e95e.png",
     "static/media/FICCI_logo.png": "/static/media/FICCI_logo.9e5d3ae222fc0cf11238.png",
     "static/media/Radhanath_swami.jpg": "/static/media/Radhanath_swami.d465dcc3f8744cef3484.jpg",
+    "static/media/Ganesh_Ramakrishnan.jpg": "/static/media/Ganesh_Ramakrishnan.6499b8f23ce2fd8281bd.jpg",
     "static/media/NSE-logo.png": "/static/media/NSE-logo.4e2519f4ce846369c003.png",
     "index.html": "/index.html",
     "main.712e43a7.css.map": "/static/css/main.712e43a7.css.map",
-    "main.650e39c5.js.map": "/static/js/main.650e39c5.js.map"
+    "main.d2d6dbc0.js.map": "/static/js/main.d2d6dbc0.js.map"
   },
   "entrypoints": [
     "static/css/main.712e43a7.css",
-    "static/js/main.650e39c5.js"
+    "static/js/main.d2d6dbc0.js"
   ]
 }
