@@ -1,4 +1,4 @@
-import { Link, Outlet} from "react-router-dom";
+import { Link, Outlet, useLocation} from "react-router-dom";
 
 import { useState, useEffect , useMemo} from "react";
 
@@ -34,7 +34,16 @@ const useTypewriter = (text, speed = 20) => {
   };
 
 const Layout = () => {
+    const location = useLocation();
+    
+    // Extract year from the path (e.g., "/2024" -> "2024")
+    const getYearFromPath = () => {
+        const pathSegments = location.pathname.split('/');
+        const yearSegment = pathSegments.find(segment => /^\d{4}$/.test(segment));
+        return yearSegment || '2024'; // Default to 2024 if no year found
+    };
 
+    const currentYear = getYearFromPath();
     
     // const [pathname, setPathname] = useState(window.location.pathname);
    
@@ -73,7 +82,7 @@ const Layout = () => {
 
             {/* Navbar */}
             <h1 className="text-center text-2xl lg:text-4xl m-4" style={{color : '#010d82' }}>
-        LiFE 2024 - {useTypewriter("Bharatiya Perspective on Sustainability", 50) }
+        LiFE {currentYear} - {useTypewriter("Bharatiya Perspective on Sustainability", 50) }
         {/* <Typewriter
                 onInit={(typewriter) => {
                     typewriter
@@ -92,7 +101,7 @@ const Layout = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto" >
-            <Link to="/2024" className="nav-link"  onClick={
+            <Link to={`/${currentYear}`} className="nav-link"  onClick={
                 () => {
                     if(window.outerWidth < 768){
                         document.querySelector('.navbar-toggler').click();
@@ -104,7 +113,7 @@ const Layout = () => {
                     document.querySelectorAll('.nav-link')[0].classList.add('activeTab');
                 }
             }>Home</Link>
-            <Link to="/2024/about" className="nav-link" onClick={
+            <Link to={`/${currentYear}/about`} className="nav-link" onClick={
                 () => {
                     if(window.outerWidth < 768){
                         document.querySelector('.navbar-toggler').click();
@@ -117,7 +126,7 @@ const Layout = () => {
                     
                 }
             }>About Us</Link>
-            <Link to="/2024/eventDetails" className="nav-link" onClick={
+            <Link to={`/${currentYear}/eventDetails`} className="nav-link" onClick={
                 () => {
                     if(window.outerWidth < 768){
                         document.querySelector('.navbar-toggler').click();
@@ -129,7 +138,7 @@ const Layout = () => {
                     document.querySelectorAll('.nav-link')[2].classList.add('activeTab');
                 }
             }>Event Details</Link>
-            <Link to="/2024/speakers" className="nav-link" onClick={
+            <Link to={`/${currentYear}/speakers`} className="nav-link" onClick={
                 () => {
                     if(window.outerWidth < 768){
                         document.querySelector('.navbar-toggler').click();
@@ -141,7 +150,7 @@ const Layout = () => {
                     document.querySelectorAll('.nav-link')[3].classList.add('activeTab');
                 }
             }>Speakers</Link>
-            <Link to="/2024/supporters" className="nav-link" onClick={
+            <Link to={`/${currentYear}/supporters`} className="nav-link" onClick={
                 () => {
                     if(window.outerWidth < 768){
                         document.querySelector('.navbar-toggler').click();
@@ -153,7 +162,7 @@ const Layout = () => {
                     
                 }
             }>Supporters</Link>    
-            <Link to="/2024/venue" className="nav-link" onClick={
+            <Link to={`/${currentYear}/venue`} className="nav-link" onClick={
                 () => {
                     if(window.outerWidth < 768){
                         document.querySelector('.navbar-toggler').click();
@@ -168,7 +177,7 @@ const Layout = () => {
             
             
 
-            <Link to="/2024/registration" className="nav-link" onClick={
+            <Link to={`/${currentYear}/registration`} className="nav-link" onClick={
                 () => {
 
                     if(window.outerWidth < 768){
@@ -181,7 +190,7 @@ const Layout = () => {
                     document.querySelectorAll('.nav-link')[6].classList.add('activeTab');
                 }
             }>Registration</Link>
-            <Link to="/2024/committee" className="nav-link" onClick={
+            <Link to={`/${currentYear}/committee`} className="nav-link" onClick={
                 () => {
                     if(window.outerWidth < 768){
                         document.querySelector('.navbar-toggler').click();
@@ -195,7 +204,7 @@ const Layout = () => {
             }>Committee</Link>
             
 
-            <Link to="/2024/contact" className="nav-link" onClick={
+            <Link to={`/${currentYear}/contact`} className="nav-link" onClick={
                 () => {
 
                     if(window.outerWidth < 768){
@@ -229,7 +238,7 @@ const Layout = () => {
             <Outlet/>
 
     <footer className="footer text-center text-lg absolute bottom-0 w-full py-3 bg-gradient-to-b from-white to-gray-400" style={{color : '#010d82'}}>
-        &copy; 2024 LiFE. All Rights Reserved.
+        &copy; 2025 LiFE. All Rights Reserved.
     </footer>
         </>
     )

@@ -34,9 +34,14 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 import 'react-vertical-timeline-component/style.min.css';
 import Themes from '../components/Themes';
 
-const Home = () => {
+function getMonthName(monthNumber) {
+  const date = new Date(2000, monthNumber - 1, 1); // Any year, month-1, day 1
+  return new Intl.DateTimeFormat('en-US', { month: 'long' }).format(date);
+}
 
-  const eventDate = new Date('2024-11-21T00:00:00Z');
+const Home = ({day, month, year, startTime, endTime, weekDay, venue}) => {
+  const monthName = getMonthName(month);
+  const eventDate = new Date(`${year}-${month}-${day}T00:00:00Z`);
   return (
     <>
 
@@ -62,7 +67,7 @@ const Home = () => {
         <div className="cap ">
 
           <h1 className='text-lg lg:text-4xl'>
-            LiFE 2024 <br /> Lifestyle for Environment <br /> <span className="dblue text-semibold"> "Bharatiya Perspective on Sustainability"</span><br /><span className='text-sm lg:text-xl'>27th Nov, Wed, 10 AM - 2 PM, NSE Auditorium, Mumbai </span>
+            LiFE {year} <br /> Lifestyle for Environment <br /> <span className="dblue text-semibold"> "Bharatiya Perspective on Sustainability"</span><br /><span className='text-sm lg:text-xl'>{day}th {monthName}, {weekDay}, {startTime} - {endTime}, {venue} </span>
           </h1>
         </div>
       </div>
@@ -73,7 +78,7 @@ const Home = () => {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work  "
-          date="Venue: National Stock Exchange Auditorium, BKC, Mumbai- 400051"
+          date={`Venue: ${venue}`}
           iconStyle={{ color: '#fff' }}
 
 
@@ -81,7 +86,7 @@ const Home = () => {
           <h3 className="vertical-timeline-element-title">Event Date</h3>
 
           <p>
-            27<sup>th</sup> November, 2024
+            {day}<sup>th</sup> {monthName}, {year}
           </p>
 
         </VerticalTimelineElement>
@@ -122,7 +127,7 @@ const Home = () => {
 
       <div className="life-sponsors flex flex-col justify-center items-center">
         <div className="org">
-          <p><h1 className='text-center dgreen'>LiFE 2024</h1></p>
+          <p><h1 className='text-center dgreen'>LiFE {year}</h1></p>
         </div>
         <span className='text-center text-lg font-bold my-2'>Organized by </span>
 

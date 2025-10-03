@@ -10,7 +10,6 @@ const Speakers = () => {
     <div className='flex flex-col'>
       <CommitteeSection id = '1' title = 'Speakers' info = {data.advisory}/>
       
-
     </div>
   );
 };

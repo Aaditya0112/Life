@@ -21,6 +21,11 @@ function LandingPage() {
           LiFE 2024
         </a>
       </div>
+      <div className="link-section">
+        <a href="/2025" target="_blank" rel="noopener noreferrer" className="main-link">
+          LiFE 2025
+        </a>
+      </div>
     </div>
   );
 }
