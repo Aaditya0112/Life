@@ -1,10 +1,10 @@
-import igbc from '../images/IGBC.png'
-import iitk_logo from "../images/iitk_logo.png"
-import nselogo from '../images/NSE-logo.png'
-import SupportersLogo from '../components/SupportersLogo'
-import goi from "../images/Government_of_India_logo.png"
-import moefcc from "../images/moefcc-logo.jpg"
-import gom from "../images/Seal_of_Maharashtra.svg.webp"
+// import igbc from '../images/IGBC.png'
+// import iitk_logo from "../images/iitk_logo.png"
+// import nselogo from '../images/NSE-logo.png'
+import SupportersLogo from '../../components/SupportersLogo'
+// import goi from "../images/Government_of_India_logo.png"
+// import moefcc from "../images/moefcc-logo.jpg"
+// import gom from "../images/Seal_of_Maharashtra.svg.webp"
 
 const Supporters = () => {
   return (

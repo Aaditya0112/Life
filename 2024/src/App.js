@@ -1,24 +1,28 @@
-import Home from './assets/pages/Home';
-import Layout from './assets/pages/Layout';
-import About from './assets/pages/About';
-import Registration from './assets/pages/Registration';
-import NoPage from './assets/pages/NoPage';
-import ComingSoon from './assets/pages/ComingSoon';
+import Home from './assets/pages/2024/Home';
+import Layout from './assets/pages/2024/Layout';
+import About from './assets/pages/2024/About';
+import Registration from './assets/pages/2024/Registration';
+import NoPage from './assets/pages/2024/NoPage';
+import ComingSoon from './assets/pages/2024/ComingSoon';
 
 
-import EventDetails from './assets/pages/EventDetails';
+import EventDetails from './assets/pages/2024/EventDetails';
 
 
 // import speaker from './assets/js/speaker.js';
 import { createBrowserRouter,Routes, Route, createRoutesFromElements, RouterProvider, BrowserRouter} from "react-router-dom";
-import Contact from './assets/pages/Contact';
+import Contact from './assets/pages/2024/Contact';
 
-import Venue from './assets/pages/Venue';
-import Supporters from './assets/pages/Supporters';
-import Speakers from './assets/pages/Speakers';
-import Committee from './assets/pages/Committee';
-import LandingPage from './assets/pages/LandingPage';
+import Venue from './assets/pages/2024/Venue';
+import Supporters from './assets/pages/2024/Supporters';
+import Speakers from './assets/pages/2024/Speakers';
+import Committee from './assets/pages/2024/Committee';
+import LandingPage from './assets/pages/2024/LandingPage';
+import { partnerLogos } from './assets/components/PartnerLogos';
 
+
+import Home2025 from './assets/pages/2025/Home';
+import Layout2025 from './assets/pages/2025/Layout';
 
 
 
@@ -36,7 +40,7 @@ function App() {
       <BrowserRouter>
     <Routes>
       <Route path='/' element={<LandingPage/>}/>
-      <Route path="/2024" element={<Layout />}>
+      <Route path="/2024" element={<Layout logos = {partnerLogos}/>}>
         <Route path='/2024' element={<Home day={27} month={11} year={2024} startTime="10:00 AM" endTime="2:00 PM" weekDay="WED" venue="NSE Auditorium, Mumbai" />} />
         <Route path="/2024/about" element={<About />} />
         {/* <Route path="/committee" element={<Committee />} /> */}
@@ -54,8 +58,8 @@ function App() {
         <Route path="*" element={<NoPage />} /> 
       </Route>
 
-        <Route path="/2025" element={<Layout />}>
-        <Route path='/2025' element={<Home day={13} month={12} year={2025} startTime="10:00 AM" endTime="6:00 PM" weekDay="SAT" venue="IIT Bombay, Mumbai" />} />
+        <Route path="/2025" element={<Layout2025 logos = {partnerLogos}/>}>
+        <Route path='/2025' element={<Home2025 day={13} month={12} year={2025} startTime="10:00 AM" endTime="6:00 PM" weekDay="SAT" venue="IIT Bombay, Mumbai" />} />
         <Route path="/2025/about" element={<About />} />
         {/* <Route path="/committee" element={<Committee />} /> */}
         <Route path="/2025/speakers" element={<ComingSoon />} />

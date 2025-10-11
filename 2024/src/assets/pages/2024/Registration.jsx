@@ -1,5 +1,5 @@
-import "../stylesheets/registration.css";
-import qr from "../images/formTestQR.png";
+import "../../stylesheets/registration.css";
+import qr from "../../images/formTestQR.png";
 
 const Registration = () => {
     return (

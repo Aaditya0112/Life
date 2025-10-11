@@ -1,9 +1,9 @@
 
-import "../stylesheets/About.css"
-import gev_intro from "../images/slide-one.mp4";
-import igbc from "../images/IGBC-drone.png";
-import iitk from "../images/slide2.jpg";
-import nse from "../images/NSE.jpg";
+import "../../stylesheets/About.css"
+import gev_intro from "../../images/slide-one.mp4";
+import igbc from "../../images/IGBC-drone.png";
+import iitk from "../../images/slide2.jpg";
+import nse from "../../images/NSE.jpg";
 
 
 const About = () => {

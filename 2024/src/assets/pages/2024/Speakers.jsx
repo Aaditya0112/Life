@@ -1,7 +1,7 @@
 import React from 'react';
 // import Card from '../components/Card' 
-import CommitteeSection from "../components/CommiteeSection";
-import CommitteeMembers from '../components/CommitteeMembers';
+import CommitteeSection from "../../components/CommiteeSection";
+import CommitteeMembers from '../../components/CommitteeMembers';
 
 const Speakers = () => {
   const data = CommitteeMembers;

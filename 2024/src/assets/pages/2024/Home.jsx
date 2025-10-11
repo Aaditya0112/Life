@@ -1,38 +1,17 @@
 import Carousel from 'react-bootstrap/Carousel';
-import Timer from '../components/Timer';
-import slide1 from '../images/slide1.jpg';
-import slide2 from '../images/slide2.webp';
-import slide3 from '../images/slide3.jpg';
-import ComingSoon from "../pages/ComingSoon";
-import life from "../images/Life-logo.jpg"
-import gev from '../images/GEV.png';
-import nselogo from '../images/NSE-logo.png'
-import iitk_logo from '../images/iitk_logo.png';
-import igbc from '../images/IGBC.jpg'
-import SupportersLogo from '../components/SupportersLogo';
+// import Timer from '../../components/Timer';
+import slide1 from '../../images/slide1.jpg';
+import slide2 from '../../images/slide2.webp';
+import slide3 from '../../images/slide3.jpg';
 
+import SupportersLogo from '../../components/SupportersLogo.jsx';
 
-import goi from '../images/Government_of_India_logo.png'
-import cii from "../images/cii-logo.png"
-import crdc from "../images/creduce-logo.png"
-import ficci from "../images/FICCI_logo.png"
-import ssa from "../images/ssa-logo.jpeg"
-import terviva from "../images/terviva-logo.png"
-import gom from "../images/Seal_of_Maharashtra.svg.webp"
-import nitw from "../images/NITW-logo.png"
-import moefcc from "../images/moefcc-logo.jpg"
-import iitb from "../images/IITB_Logo.svg"
-import iiti from "../images/IIT_Indore_Logo.png"
-import assocham from "../images/assocham-logo.jpg"
-
-import ssc from "../images/Theme2.jpg"
-import t1 from"../images/Theme1.webp"
 
 // import SponsorsImg from '../components/SponsorsImg';
 
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import Themes from '../components/Themes';
+import Themes from '../../components/Themes.jsx';
 
 function getMonthName(monthNumber) {
   const date = new Date(2000, monthNumber - 1, 1); // Any year, month-1, day 1

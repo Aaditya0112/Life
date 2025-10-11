@@ -1,6 +1,6 @@
 import React from "react";
-import "../stylesheets/LandingPage.css";
-import life from '../images/Life-logo.jpg'
+import "../../stylesheets/LandingPage.css";
+import life from '../../images/Life-logo.jpg'
 
 function LandingPage() {
   return (

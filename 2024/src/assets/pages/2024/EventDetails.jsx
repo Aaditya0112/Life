@@ -1,4 +1,4 @@
-import Schedule from "../components/Schedule";
+import Schedule from "../../components/Schedule.jsx";
 
 
 const EventDetails = () => {

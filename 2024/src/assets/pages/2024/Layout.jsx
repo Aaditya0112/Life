@@ -2,15 +2,13 @@ import { Link, Outlet, useLocation} from "react-router-dom";
 
 import { useState, useEffect , useMemo} from "react";
 
-import iitk_logo from '../images/iitk_logo.png';
-import gev from '../images/GEV.png';
-import igbc from '../images/IGBC.jpg'
+// import iitk_logo from '../images/iitk_logo.png';
+
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import life from '../images/Life-logo.jpg'
-import nselogo from '../images/NSE-logo.png'
-import ksos from "../images/Kotak-School.svg"
+import life from '../../images/Life-logo.jpg'
+
 
 
 
@@ -33,7 +31,7 @@ const useTypewriter = (text, speed = 20) => {
     return displayText;
   };
 
-const Layout = () => {
+const Layout = ({logos}) => {
     const location = useLocation();
     
     // Extract year from the path (e.g., "/2024" -> "2024")
@@ -45,7 +43,6 @@ const Layout = () => {
 
     const currentYear = getYearFromPath();
     
-    // const [pathname, setPathname] = useState(window.location.pathname);
    
     return (
 
@@ -56,22 +53,14 @@ const Layout = () => {
                 <div className="life">
                         <img src={life} alt="LiFE" />
                     </div>
-                    
-                    <div className="gev">
-                    <a href = "https://ecovillage.org.in/" target="_blank"><img src={gev} alt = "GEV-Logo" /></a>
-                    </div>
-   
-                    <div className="inst-logo KSoS">
-                        <a href = "https://kss.iitk.ac.in/" target="_blank"><img src={ksos} alt="ksos Logo" /></a>
-                    </div>
 
-                    <div className="igbc">
-                    <a href = "https://igbc.in/" target="_blank"><img src={igbc} alt= "IGBC-Logo" /></a>
-                    </div>
-                    <div className="nse-logo">
-                    
-                    <a href = "https://www.nseindia.com" target="_blank"><img src={nselogo} alt="nse" /></a>
-                    </div>
+                    {logos.map((p, idx) => (
+                        <div key={idx} className={p.className}>
+                            <a href={p.href} target="_blank" rel="noopener noreferrer">
+                                <img src={p.img} alt={p.alt} title={p.alt} />
+                            </a>
+                        </div>
+                    ))}
                     
                     
 

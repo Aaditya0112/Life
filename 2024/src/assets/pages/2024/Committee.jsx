@@ -1,9 +1,9 @@
-import "../stylesheets/Committee.css"
-import iitk_logo from '../images/iitk_logo.png';
-import nitw from "../images/NITW-logo.png"
-import igbc from '../images/IGBC.jpg'
-import iskcon from "../images/iskcon_logo.jpg"
-import iitb from "../images/IITB_Logo.svg"
+import "../../stylesheets/Committee.css"
+import iitk_logo from '../../images/iitk_logo.png';
+import nitw from "../../images/NITW-logo.png"
+import igbc from '../../images/IGBC.jpg'
+import iskcon from "../../images/iskcon_logo.jpg"
+import iitb from "../../images/IITB_Logo.svg"
 
 const Committee = () => { 
     return(<>
